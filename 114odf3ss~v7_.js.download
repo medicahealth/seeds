@@ -1,0 +1,350 @@
+;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="19b005ca-9dfb-983e-194c-e678a4e02ec4")}catch(e){}}();
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,718690,e=>{"use strict";var t=e.i(391398),i=e.i(191788),a=e.i(760814),r=e.i(341949),n=e.i(114168),s=e.i(911118),o=e.i(869436);let l=a.default.div.withConfig({displayName:"nutrient-cycles__CyclesContainer",componentId:"sc-63f6e08c-0"})`
+  position: relative;
+  margin: 1.5rem auto 0;
+  border-radius: 100px;
+  padding: 0.5rem;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-neutral-frosted-glass-t8);
+`,d=a.default.button.withConfig({displayName:"nutrient-cycles__CyclesButton",componentId:"sc-63f6e08c-1"})`
+  position: relative;
+  appearance: none;
+  border: 0;
+  padding: 0.625rem 1.125rem;
+  width: 5.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  z-index: 2;
+`,c=a.default.span.withConfig({displayName:"nutrient-cycles__CyclesButtonOverlay",componentId:"sc-63f6e08c-2"})`
+  position: absolute;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  left: 0;
+  border-radius: 100px;
+  width: 5.75rem;
+  transform: translateX(0.5rem);
+  background-color: white;
+  transition: left 0.2s;
+`,u=({allCycles:e,selectedTile:i,goToNewVideo:a})=>{let r=null!=i,n=r?Math.max(0,Math.min(i,Object.values(e).length-1)):0;return(0,t.jsxs)(l,{children:[Object.values(e).map((e,r)=>(0,t.jsxs)(d,{onClick:()=>{a(e.cardIndex),o.default.trackEvent("Button Clicked",{buttonName:"Day/Night selector: "+e.label,location:"PDP"})},"cycle-selected":r===i?"selected":"",children:[(0,t.jsx)("img",{src:e.icon.url,alt:`Icon for ${e.label} cycle`}),(0,t.jsx)("span",{children:e.label})]},`nutrient-cycle-${e.label}`)),(0,t.jsx)(c,{style:{opacity:+!!r,left:`calc(5.75rem * ${n})`}})]})},p=a.default.div.withConfig({displayName:"product-nutrients__ProductNutrientsContainer",componentId:"sc-2131d166-0"})`
+  padding-bottom: 3.5rem;
+  background-color: var(--fill-secondary);
+
+  @media ${r.mqLargeMin} {
+    padding-bottom: 5rem;
+  }
+
+  * {
+    color: var(--text-primary);
+  }
+
+  @media ${r.mqLargeMin} {
+    &.nutrients--compact .nutrients__content {
+      margin-left: auto;
+    }
+  }
+`,m=a.default.div.withConfig({displayName:"product-nutrients__CardWrapper",componentId:"sc-2131d166-1"})`
+  padding: 0.75rem 1rem 0;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  gap: 1rem;
+  scrollbar-width: none;
+
+  @media ${r.mqLargeMin} {
+    margin-left: 0;
+    padding: 0.5rem 1rem 0.5rem calc((100vw - 1280px) / 2);
+    scroll-snap-type: none;
+    -webkit-scroll-snap-type: none;
+    cursor: grab;
+
+    &.mini {
+      margin: auto;
+      padding: 0 5rem;
+      max-width: 80rem;
+      width: 100%;
+      box-sizing: content-box;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &.is-dragging {
+    cursor: grabbing;
+
+    * {
+      user-select: none;
+    }
+  }
+`,g=a.default.div.withConfig({displayName:"product-nutrients__NutrientCard",componentId:"sc-2131d166-2"})`
+  position: relative;
+  backdrop-filter: blur(10.85301399230957px);
+  border-radius: 1.5rem;
+  border: 1px solid var(--outline-primary-10);
+  padding: 1rem 1.5rem;
+  width: 20rem;
+  flex-shrink: 0;
+  height: 21.1875rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--fill-primary);
+  box-sizing: content-box;
+  transition: padding 0.05s 0.05s;
+
+  &.selected {
+    padding: 1.5rem;
+    transition: padding 0.05s;
+  }
+
+  @media ${r.mqLargeMin} {
+    scroll-snap-align: start;
+    -webkit-scroll-snap-align: start;
+  }
+`,h=a.default.p.withConfig({displayName:"product-nutrients__NutrientInfo",componentId:"sc-2131d166-3"})`
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 140%;
+  letter-spacing: -0.07px;
+`,y=a.default.h3.withConfig({displayName:"product-nutrients__CardTitle",componentId:"sc-2131d166-4"})`
+  margin-bottom: 0.5rem;
+  font-size: 24px;
+  font-weight: 350;
+  line-height: 120%;
+  letter-spacing: -0.36px;
+
+  &.mini {
+    font-size: 16px;
+  }
+`,f=a.default.p.withConfig({displayName:"product-nutrients__CardSubtitle",componentId:"sc-2131d166-5"})`
+  margin-bottom: 1rem;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 110%;
+  text-transform: uppercase;
+`,b=a.default.video.withConfig({displayName:"product-nutrients__NutrientVideo",componentId:"sc-2131d166-6"})`
+  margin: auto;
+  width: 100%;
+  max-height: 10rem;
+  flex-grow: 1;
+  object-fit: cover;
+`,_=a.default.div.withConfig({displayName:"product-nutrients__ContentsWrapper",componentId:"sc-2131d166-7"})`
+  margin: auto;
+  padding: 3.5rem 1rem 2.5rem;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  box-sizing: content-box;
+
+  @media ${r.mqLargeMin} {
+    padding: 5rem;
+  }
+
+  @media (${r.mqXLargeMin}) {
+    flex-wrap: nowrap;
+  }
+`,x=a.default.h2.withConfig({displayName:"product-nutrients__NutrientsTitle",componentId:"sc-2131d166-8"})`
+  max-width: 37.5rem;
+  font-size: 32px;
+  font-weight: 350;
+  line-height: 110%;
+  text-wrap: unset;
+  letter-spacing: -0.96px;
+
+  @media ${r.mqLargeMin} {
+    font-size: 48px;
+  }
+`,v=a.default.p.withConfig({displayName:"product-nutrients__NutrientsContent",componentId:"sc-2131d166-9"})`
+  max-width: 26.875rem;
+`,j=a.default.div.withConfig({displayName:"product-nutrients__ExclusiveTag",componentId:"sc-2131d166-10"})`
+  position: absolute;
+  left: 1.5rem;
+  top: 0;
+  transform: translateY(-50%);
+  border-radius: 1rem;
+  padding: 0 8px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  background-color: var(--guidance-primary);
+`,w=a.default.div.withConfig({displayName:"product-nutrients__CardColorTag",componentId:"sc-2131d166-11"})`
+  margin-bottom: 0.5rem;
+  flex-shrink: 0;
+  width: 1rem;
+  height: 0rem;
+  opacity: 0;
+  transition: all 0.1s;
+
+  &.tag-visible {
+    height: 1rem;
+    opacity: 1;
+  }
+`,S=a.default.div.withConfig({displayName:"product-nutrients__ChartImageWrapper",componentId:"sc-2131d166-12"})`
+  margin: 2.625rem auto 0;
+  max-width: 80rem;
+  padding: 1rem;
+`,C=a.default.div.withConfig({displayName:"product-nutrients__CardIndicatorWrapper",componentId:"sc-2131d166-13"})`
+  margin-top: 2rem;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+
+  @media ${r.mqLargeMin} {
+    display: none;
+  }
+`,I=a.default.div.withConfig({displayName:"product-nutrients__CardIndicator",componentId:"sc-2131d166-14"})`
+  border-radius: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: var(--fill-secondary);
+  transition: all 0.2s;
+
+  &.selected {
+    width: 1rem;
+    background-color: var(--fill-brand);
+  }
+`;e.s(["default",0,({productInfo:e,nutrients:a})=>{let r=(0,i.useMemo)(()=>{if(!e)return null;let t=e.nutrientsModuleOverviewChart?.reference;return t?.image?.url?{url:t.image.url,altText:t.image.altText??t.alt??""}:t?.url?{url:t.url,altText:t.alt??""}:null},[e]),[o,l]=(0,i.useState)(()=>null!=r?null:0),[d,c]=(0,i.useState)(()=>a?.metaObjects?.[0]?(0,s.metaObjectItem)(a.metaObjects[0],"chart_image"):null),[k,P]=(0,i.useState)(!1),O=(0,i.useRef)(null),N=(0,i.useRef)({active:!1,startX:0,startScrollLeft:0,hasDragged:!1});(0,i.useEffect)(()=>{if(null===o||!a?.metaObjects?.[o])return;let e=(0,s.metaObjectItem)(a.metaObjects[o],"chart_image");e&&c(e)},[o,a]),(0,i.useEffect)(()=>{if(r||null===o)return;let e=document.querySelector(`[nutrient-card="${o}"]`);e?.querySelector("video")?.play()},[r,o]);let E=(e,t=!1)=>{let i=null!==o?document.querySelector(`[nutrient-card="${o}"]`):null,a=document.querySelector(`[nutrient-card="${e}"]`);i?.querySelector("video")?.pause(),a?.querySelector("video")?.play(),t&&a?.scrollIntoView({inline:"center",behavior:"smooth",block:"nearest"}),l(e)},T=()=>{r&&!N.current.active&&l(e=>(null!==e&&document.querySelector(`[nutrient-card="${e}"]`)?.querySelector("video")?.pause(),null))},A=()=>{let e=document.querySelectorAll(".visible[nutrient-card]");if(1===e.length){let t=e[0].getAttribute("nutrient-card");if(null===t)return;E(parseInt(t,10))}},M=(0,i.useRef)(A);M.current=A;let D=(0,i.useCallback)(e=>{if(0!==e.button)return;let t=O.current;if(!t)return;N.current={active:!0,startX:e.pageX,startScrollLeft:t.scrollLeft,hasDragged:!1},P(!0),t.style.scrollSnapType="none",t.style.setProperty("-webkit-scroll-snap-type","none");let i=e=>{let i=N.current;if(!i.active)return;let a=e.pageX-i.startX;Math.abs(a)>5&&(i.hasDragged=!0),t.scrollLeft=i.startScrollLeft-a},a=()=>{window.removeEventListener("mousemove",i),window.removeEventListener("mouseup",a),N.current.active=!1,P(!1),t.style.scrollSnapType="",t.style.removeProperty("-webkit-scroll-snap-type"),M.current(),N.current.hasDragged=!1};window.addEventListener("mousemove",i),window.addEventListener("mouseup",a)},[]);if((0,i.useLayoutEffect)(()=>{if(!a||!e)return;let t=O.current;if(!t)return;let i=()=>M.current();return t.addEventListener("scrollend",i),()=>t.removeEventListener("scrollend",i)},[a,e]),!a||!e)return null;let L=a.metaObjects.reduce((e,t,i)=>((0,s.metaObjectItem)(t,"cycle")&&(e[(0,s.metaObjectItem)(t,"cycle")]={label:(0,s.metaObjectItem)(t,"cycle"),icon:(0,s.metaObjectMedia)(a,(0,s.metaObjectItem)(t,"cycle_icon")),cardIndex:i}),e),{}),$=r&&null===o||d?(0,t.jsx)(S,{children:(0,t.jsx)("img",{src:r&&null===o?r.url:(0,s.metaObjectMedia)(a,d).url,alt:r&&null===o?r.altText:(0,s.metaObjectMedia)(a,d).altText})}):null;return(0,t.jsx)(p,{className:`${a.metaObjects.length<4?"nutrients--compact":""}`,children:(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(_,{children:[(0,t.jsx)(x,{children:e.nutrientsTitle.value}),(0,t.jsx)(v,{className:"nutrients__content",children:e.nutrientsContent.value})]}),(0,t.jsx)(m,{ref:O,onMouseDown:D,onMouseLeave:r?T:void 0,onBlur:r?e=>{if(!r||N.current.active)return;let t=e.relatedTarget;t&&e.currentTarget.contains(t)||T()}:void 0,onTouchEnd:A,className:`${a.metaObjects.length<=4?"mini":""} ${k?"is-dragging":""}`,children:a.metaObjects.map((i,r)=>(0,t.jsx)(n.InView,{threshold:.5,children:({inView:n,ref:l})=>(0,t.jsxs)(g,{className:`${o===r?"selected":""} ${n?"visible":"not-visible"}`,"nutrient-card":r,onMouseEnter:()=>{N.current.active||E(r)},onFocus:()=>E(r),ref:l,tabIndex:0,children:["true"===(0,s.metaObjectItem)(i,"is_exclusive")&&(0,t.jsxs)(j,{children:[e.shortTitle," Exclusive"]}),"true"!==(0,s.metaObjectItem)(i,"is_exclusive")&&(0,s.metaObjectItem)(i,"selected_card_tag_color")&&(0,t.jsx)(w,{style:{backgroundColor:(0,s.metaObjectItem)(i,"selected_card_tag_color")},className:o===r?"tag-visible":""}),(0,t.jsx)(y,{className:`${(0,s.metaObjectItem)(i,"title").length>40?"mini":""}`,children:(0,s.metaObjectItem)(i,"title")}),(0,t.jsx)(h,{children:(0,s.metaObjectItem)(i,"description")}),(0,t.jsx)(b,{loop:!0,muted:!0,playsInline:!0,children:((0,s.metaObjectMedia)(a,(0,s.metaObjectItem)(i,"video"))?.sources||[]).map(e=>(0,t.jsx)("source",{src:e.url},`nutrient-${i.id}-source-${e.url}`))}),(0,t.jsx)(f,{children:(0,s.metaObjectItem)(i,"subtitle")}),(0,t.jsx)(h,{children:(0,s.metaObjectItem)(i,"subcontent")})]})},`nutrient-card-${i.id}`))}),(0,t.jsx)(C,{children:a.metaObjects.map((e,i)=>(0,t.jsx)(I,{className:`${o===i?"selected":""}`},`nutrient-indicator-${e.id}`))}),Object.values(L).length>0&&(0,t.jsx)(u,{allCycles:L,selectedTile:o,goToNewVideo:E}),$]})})}],718690)},728576,e=>{"use strict";e.s(["validateEmail",0,e=>!!e&&/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(String(e).toLowerCase())])},528865,(e,t,i)=>{t.exports={error_account_unverified:"Verify your account.",error_email:"Enter a valid email address.",error_email_not_found:"Apologies—we do not recognize your email. Try again.",error_invalid_entry:"Apologies—we do not recognize your email or password. Reset your password to manage your subscription.",error_invalid_account:"Apologies—we do not recognize your account. Try login again.",error_generic:"Sorry, we encountered an error. Please try again.",error_password:"Password must be at least 6 characters long.",page_name:"Sign In",page_desc:"Login",page_title:"Hi, sign in.",recover:"Forgot my password",section_title:"Your Account",signup:"Create an account",submit:"Sign In",401:{UNVERIFIED_ACCOUNT:"Your account has not been verified. Please click on the verification link sent to your email and try again.",USER_NOT_FOUND:"Apologies—we do not recognize your account. Try login again."},email:"Email",password:"Password",create_account:"Want to create a new account?",forgot_password:"Forgot password?",dont_have_password:"Don't have a password?"}},967589,e=>{"use strict";var t=e.i(391398),i=e.i(191788),a=e.i(897289),r=e.i(869436),n=e.i(974909),s=e.i(203828),o=e.i(326829),l=e.i(855938),d=e.i(596639),c=e.i(329081);let u={firstName:"",lastName:"",street1:"",street2:"",city:"",region:"",postalCode:"",country:"US"},p={...u,company:"",phone:"",address_id:""},m={previewTotalPrice:0,previewSubTotalPrice:0,previewCreditsApplied:0,previewDiscountPrice:0,shippingCosts:0,taxes:0},g=(0,i.createContext)({checkoutStep:0,setCheckoutStep:e=>null,shippingAddress:p,setShippingAddress:e=>null,clearShippingAddress:()=>null,isUsingNewShippingAddress:!0,setIsUsingNewShippingAddress:e=>null,isEditingShippingAddress:!1,setIsEditingShippingAddress:e=>null,expeditedShippingCost:0,setExpeditedShippingCost:e=>null,billingAddress:u,setBillingAddress:e=>null,useShippingAsBillingAddress:!0,setUseShippingAsBillingAddress:e=>null,paymentType:"cc",setPaymentType:e=>null,paymentToken:"",setPaymentToken:e=>null,isUsingExistingPaymentMethod:!1,setisUsingExistingPaymentMethod:e=>null,hasAcceptedTerms:!1,setHasAcceptedTerms:e=>null,hasOptedInToEmail:!0,setHasOptedInToEmail:e=>null,isSmsOptedIn:!1,setIsSmsOptedIn:e=>null,purchasePreviewInfo:{previewTotalPrice:0,previewSubTotalPrice:0,previewCreditsApplied:0,previewDiscountPrice:0,shippingRates:0,currency:"USD"},setPurchasePreviewInfo:e=>null,getAndStorePurchasePreviewInfo:async e=>({}),trackCouponApplied:(e,t,i,a)=>null,trackCouponDenied:(e,t)=>null,trackCouponFraud:(e,t)=>null,trackCouponRemoved:e=>null,userIsVerified:!1,setUserIsVerified:e=>null,shippingAddressErrors:[],setShippingAddressErrors:e=>null,billingAddressErrors:[],setBillingAddressErrors:e=>null,paymentErrors:[],setPaymentErrors:e=>null,termsError:[],setTermsError:e=>null,purchasePreviewErrors:[],setPurchasePreviewErrors:e=>null,submitErrors:[],setSubmitErrors:e=>null,applePayErrors:[],setApplePayErrors:e=>null,turnstileErrors:[],setTurnstileErrors:e=>null,clearAllErrors:()=>null,shippingAddressFormErrors:{},setShippingAddressFormErrors:e=>null,billingAddressFormErrors:{},setBillingAddressFormErrors:({})=>null,paymentFormErrors:{},setPaymentFormErrors:e=>null});e.s(["CheckoutContext",0,g,"CheckoutProvider",0,({children:e})=>{let h=(0,s.useRouter)(),{userCart:y,promoCode:f,stackableCouponCode:b}=(0,i.useContext)(l.CartContext),{userState:_}=(0,i.useContext)(d.UserContext),[x,v]=(0,i.useState)(0),[j,w]=(0,i.useState)(!0),[S,C]=(0,i.useState)(!1),[I,k]=(0,i.useState)(!1),[P,O]=(0,i.useState)({}),[N,E]=(0,i.useState)({}),[T,A]=(0,i.useState)({}),[M,D]=(0,i.useState)([]),[L,$]=(0,i.useState)([]),[z,q]=(0,i.useState)([]),[R,U]=(0,i.useState)([]),[B,F]=(0,i.useState)([]),[V,X]=(0,i.useState)([]),[W,H]=(0,i.useState)([]),[G,Y]=(0,i.useState)([]),J=()=>{Y([]),$([]),q([]),U([]),X([]),H([]),O({}),A({})};(0,i.useEffect)(()=>{h.isReady&&("/cart"===h.pathname||"/checkout"===h.pathname?eO(JSON.parse(localStorage.getItem("purchasePreviewInfo")||"{}")||m):eP(m))},[h.isReady,h.pathname]),(0,i.useEffect)(()=>{let e=(0,n.getMostRecentlyUsedAddress)(_);e&&!Z&&(Q((0,n.sanitizeAddress)(e)),ei(!1))},[_]);let[K,Q]=(0,i.useState)(p),[Z,ee]=(0,i.useState)(!_?.account?.details?.shipping_addresses?.[0]),[et,ei]=(0,i.useState)(!0);(0,i.useEffect)(()=>{let e=u,t=_?.account?.details?.billing_info?.address;t?.postal_code||t?.postalCode?e=t:(K?.postalCode||K?.postal_code)&&(e=K),e&&ed(e)},[_]);let ea=e=>{let t=(0,n.sanitizeAddress)(e);Q((0,n.sanitizeAddress)(t))},er=()=>{Q(p)},[en,es]=(0,i.useState)(u),[eo,el]=(0,i.useState)(!0),ed=e=>{es((0,n.sanitizeAddress)(e))},[ec,eu]=(0,i.useState)(0),ep=e=>{el(e)},[em,eg]=(0,i.useState)(""),[eh,ey]=(0,i.useState)("cc"),[ef,eb]=(0,i.useState)(!1),e_=e=>{Y([]),A({}),ey(e)},[ex,ev]=(0,i.useState)(!1),ej=e=>{ev(e),e&&$([])},ew=(e,t,i,a)=>{r.default.trackEvent("Coupon Applied",{cart_id:y.cartId(),coupon_id:e,coupon_name:e,discount:Number(t),coupon_type:a,coupon_entry_method:i||"manual"})},eS=(e,t,i)=>{r.default.trackEvent("Coupon Denied",{cart_id:y.cartId(),coupon_id:e,coupon_name:e,reason:t,coupon_entry_method:i||"manual"})},eC=(e,t,i)=>{r.default.trackEvent("Coupon Fraud",{cart_id:y.cartId(),coupon_id:e,coupon_name:e,reason:t,coupon_entry_method:i||"manual"})},eI=e=>{r.default.trackEvent("Coupon Removed",{cart_id:y.cartId(),code_id:e,code_name:e})},[ek,eP]=(0,i.useState)(m),eO=e=>{eP(e),localStorage.setItem("purchasePreviewInfo",JSON.stringify(e))},eN=async e=>{let{currentCartItems:t,products:i,shippingAddress:s,inputPromoCode:l}=e;D([]);let d=!!(s?.postalCode&&s?.street1),u={subscriptions:(0,n.getSubscriptionItems)(t,i,d?s.country:null,!1,ec>0?"expedited":void 0),lineItems:[],currency:"USD",includeShippingCosts:!0,shipping:{}},p=s?.country?.toLowerCase()==="us";if(s.address_id?u.shipping={address_id:s.address_id}:s.postalCode&&(u.shipping={address:s}),ec>0&&(u.shipping={...u.shipping,shipping_method:"expedited"}),u.couponCodes=[],l?.length)u.couponCodes.push(l);else{let e=(0,c.getPersistedPromoCode)();e&&u.couponCodes.push(e)}b&&(u.stackableCouponCodes=[b]);let m=await (0,a.apiPurchasePreview)(u);if(200===m.status){let{chargeInvoice:e,shipping_costs:t}=m.data,i=p?e.tax:t.tax_duty_amount||0,a=p?t.total:t.shipping_only_amount||0;return eO({invoiceLineItems:e.lineItems.data,previewTotalPrice:e.balance,previewSubTotalPrice:e.subtotal-a-i,previewCreditsApplied:e.paid,previewDiscountPrice:e.discount,previewPdpPrice:e.subtotal-a-i-e.discount,taxes:i,shippingCosts:a,requestHash:JSON.stringify(u),currency:u.currency}),{data:m.data,status:m.status}}let g=m.data,h=g.errorCode||"UNKNOWN";if("ITEM_NOT_AVAILABLE"===h&&localStorage?.removeItem("seed_cart_items"),"INVALID_COUPON"===h){let e=(0,c.getPersistedPromoCode)();u.couponCodes.includes(e)&&(0,c.removePersistedPromoCode)()}return D([(0,o.getErrorMessage)(h)||g.msg]),r.default.trackEvent("Checkout Step Failed",{checkoutStep:1,checkout_id:(0,n.getCheckoutId)(),coupon_id:f,failedAddressValidation:"BILLING_VALIDATION_ERROR"===h,action:"Purchase Preview",status_code:m.status,error_code:h,message:g.msg}),{data:m.data,status:m.status}};(0,i.useEffect)(()=>{K.country?.toLowerCase()!=="us"&&ec>0&&eu(0)},[K.country]);let eE=(0,i.useMemo)(()=>({purchasePreviewInfo:ek,setPurchasePreviewInfo:eO,getAndStorePurchasePreviewInfo:eN,checkoutStep:x,setCheckoutStep:v,shippingAddress:K,setShippingAddress:ea,isUsingNewShippingAddress:et,setIsUsingNewShippingAddress:ei,shippingAddressErrors:V,setShippingAddressErrors:X,shippingAddressFormErrors:P,setShippingAddressFormErrors:O,clearShippingAddress:er,isEditingShippingAddress:Z,setIsEditingShippingAddress:ee,expeditedShippingCost:ec,setExpeditedShippingCost:eu,billingAddress:en,setBillingAddress:ed,useShippingAsBillingAddress:eo,setUseShippingAsBillingAddress:ep,hasAcceptedTerms:ex,setHasAcceptedTerms:ej,hasOptedInToEmail:j,setHasOptedInToEmail:w,isSmsOptedIn:S,setIsSmsOptedIn:C,paymentType:eh,setPaymentType:e_,paymentToken:em,setPaymentToken:eg,isUsingExistingPaymentMethod:ef,setisUsingExistingPaymentMethod:eb,userIsVerified:I,setUserIsVerified:k,termsError:L,setTermsError:$,billingAddressFormErrors:N,setBillingAddressFormErrors:E,billingAddressErrors:W,setBillingAddressErrors:H,paymentErrors:G,setPaymentErrors:Y,paymentFormErrors:T,setPaymentFormErrors:A,submitErrors:R,setSubmitErrors:U,turnstileErrors:B,setTurnstileErrors:F,applePayErrors:z,setApplePayErrors:q,purchasePreviewErrors:M,setPurchasePreviewErrors:D,clearAllErrors:J,trackCouponApplied:ew,trackCouponDenied:eS,trackCouponFraud:eC,trackCouponRemoved:eI}),[ek,x,em,eh,K,et,Z,ec,eu,en,eo,ex,j,S,V,P,W,G,L,R,B,M,z,q]);return(0,t.jsx)(g.Provider,{value:eE,children:e})}])},516440,e=>{"use strict";var t=e.i(391398),i=e.i(191788),a=e.i(114168);e.s(["default",0,e=>{let{children:r,height:n,id:s=null,fallback:o=null,style:l={}}=e,[d,c]=(0,i.useState)(!1),{ref:u,inView:p}=(0,a.useInView)({triggerOnce:!0});return(0,i.useEffect)(()=>{p&&c(!0)},[p]),(0,t.jsx)("div",{id:s,ref:u,style:{minHeight:d?n:"100vh",...l},children:d?r:o})}])},798114,(e,t,i)=>{t.exports={page_name:"pdp-daily-synbiotic",page_desc:"The DS-01® Daily Synbiotic is the evolution of probiotics—formulated with 24 clinically studied probiotic strains and non-fermenting prebiotics to deliver systemic benefits including digestive health, skin health, and heart health.",page_title:"DS-01® Daily Synbiotic | Best Selling Probiotic | Best Price Available - Seed"}},347251,e=>{"use strict";var t=e.i(391398),i=e.i(191788),a=e.i(798114),r=e.i(573099),n=e.i(958678),s=e.i(781971),o=e.i(800119);let l={page_type:"pdp",page_class:"page-daily-synbiotic",page_name:a.default.page_name,page_title:a.default.page_title,page_description:a.default.page_desc},d=(0,i.memo)(({faqSchema:e,yotpoAverageScore:i,yotpoTotalReviews:a}={})=>{let d=(0,o.buildAggregateRating)(i,a),c={"@context":"https://schema.org/","@type":"Product",name:"DS-01 Daily Synbiotic (Probiotic + Prebiotic)",image:["https://res.cloudinary.com/dljz0lko8/image/upload/f_auto,q_auto/v1714078835/daily-synbiotic/hero-carousel/jar-capsules.jpg","https://res.cloudinary.com/dljz0lko8/image/upload/f_auto,q_auto/v1714078836/daily-synbiotic/hero-carousel/welcome-kit.jpg","https://res.cloudinary.com/dljz0lko8/image/upload/f_auto,q_auto/v1714078834/daily-synbiotic/hero-carousel/inside.jpg","https://res.cloudinary.com/dljz0lko8/image/upload/f_auto,q_auto/v1714078834/daily-synbiotic/hero-carousel/formulation.jpg"],description:"Seed’s DS-01® Daily Synbiotic is a broad-spectrum probiotic and prebiotic formulated with 24 probiotic strains for benefits beyond the gut, including digestive health, skin health, heart health, gut immune function, gut barrier integrity, and micronutrient synthesis. Its capsule-in-capsule design safeguards viability through digestion for delivery of our probiotic starting dose to your colon. The outer capsule also serves as a barrier to oxygen, moisture, and heat—no refrigeration necessary. DS-01® is tested for: Dairy, Gluten, Soy, GMOs, Nuts, Shellfish, Sesame, Glyphosate/AMPA, and 14 classes of allergens defined by European Food and Safety Authority (EFSA). It adheres to the following diets: Vegan, Vegetarian, Ketogenic, Gluten-Free, and Intermittent Fasting. Welcome kit includes: 60 DS-01® capsules (a 30-day supply) in a refillable glass jar, plus a free travel vial to keep up your routine no matter where you go.",sku:"SYN-WK",gtin:"860340001620",...d?{aggregateRating:d}:{},brand:{"@type":"Brand",name:"Seed"},offers:{"@type":"Offer",url:"https://seed.com/daily-synbiotic",itemCondition:"http://schema.org/NewCondition",availability:"http://schema.org/InStock",acceptedPaymentMethod:[{"@type":"PaymentMethod",name:"Credit Card"},{"@type":"PaymentMethod",name:"PayPal"},{"@type":"PaymentMethod",name:"Apple Pay"}],priceSpecification:{"@type":"UnitPriceSpecification",price:"49.99",priceCurrency:"USD",priceType:"http://schema.org/MSRP"},shippingDetails:{"@type":"OfferShippingDetails",shippingRate:{"@type":"MonetaryAmount",value:"0",currency:"USD"},shippingDestination:{"@type":"DefinedRegion",addressCountry:"US"},deliveryTime:{"@type":"ShippingDeliveryTime",businessDays:{"@type":"OpeningHoursSpecification",dayOfWeek:["http://schema.org/Monday","http://schema.org/Tuesday","http://schema.org/Wednesday","http://schema.org/Thursday","http://schema.org/Friday"]},handlingTime:{"@type":"QuantitativeValue",minValue:"0",maxValue:"1",unitCode:"d"},transitTime:{"@type":"QuantitativeValue",minValue:"3",maxValue:"8",unitCode:"d"}}},hasMerchantReturnPolicy:{"@type":"MerchantReturnPolicy",merchantReturnLink:"https://help.seed.com",description:"30 Day Money-Back Guarantee on First Order without Product Return",merchantReturnDays:"30",returnFees:"0"}}},u=`${r.default.brand} • ${l.page_title}`;return(0,t.jsxs)(n.default,{children:[(0,t.jsx)("title",{children:u}),(0,t.jsx)("meta",{name:"description",content:l.page_description}),(0,t.jsx)("link",{rel:"canonical",href:"https://seed.com/daily-synbiotic"}),(0,t.jsx)("meta",{property:"og:locale",content:"en_US"}),(0,t.jsx)("meta",{property:"og:site_name",content:"Seed"}),(0,t.jsx)("meta",{property:"og:title",content:u}),(0,t.jsx)("meta",{property:"og:description",content:l.page_description}),(0,t.jsx)("meta",{property:"og:url",content:`https://seed.com${s.default.daily_synbiotic}`}),(0,t.jsx)("meta",{property:"og:type",content:"website"}),(0,t.jsx)("meta",{property:"og:image",content:"https://res.cloudinary.com/dljz0lko8/image/upload/v1605177102/daily-synbiotic/Hero_Image_ktl0o8.jpg"}),(0,t.jsx)("meta",{property:"og:image:type",content:"image/png"}),(0,t.jsx)("meta",{property:"og:image:width",content:"640"}),(0,t.jsx)("meta",{property:"og:image:height",content:"550"}),(0,t.jsx)("meta",{property:"og:image:alt",content:l.page_title}),(0,t.jsx)("meta",{name:"twitter:title",content:u}),(0,t.jsx)("meta",{name:"twitter:description",content:l.page_description}),(0,t.jsx)("meta",{name:"twitter:url",content:`https://seed.com${s.default.daily_synbiotic}`}),(0,t.jsx)("meta",{name:"twitter:card",content:"summary_large_image"}),(0,t.jsx)("meta",{name:"twitter:site",content:"@seedhealth"}),(0,t.jsx)("meta",{name:"twitter:image",content:"https://res.cloudinary.com/dljz0lko8/image/upload/v1605177102/daily-synbiotic/Hero_Image_ktl0o8.jpg"}),(0,t.jsx)("meta",{name:"twitter:image:alt",content:l.page_title}),(0,t.jsx)("script",{type:"application/ld+json",dangerouslySetInnerHTML:{__html:JSON.stringify(c)}}),e&&(0,t.jsx)("script",{type:"application/ld+json",dangerouslySetInnerHTML:{__html:JSON.stringify(e)}})]})});e.s(["default",0,d])},948591,e=>{"use strict";var t=e.i(391398),i=e.i(191788),a=e.i(833874),r=e.i(104656),n=e.i(661050),s=e.i(760814),o=e.i(341949),l=e.i(720291),d=e.i(347251),c=e.i(3527),u=e.i(967589),p=e.i(516440),m=e.i(824789),g=e.i(910654),h=e.i(714863),y=e.i(718690),f=e.i(728858),b=e.i(911118);let _=s.default.div.withConfig({displayName:"product-bundle-items__BundleWrapper",componentId:"sc-fabca385-0"})`
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 82rem;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+
+  @media ${o.mqLargeMin} {
+    flex-direction: row;
+  }
+`,x=s.default.div.withConfig({displayName:"product-bundle-items__BundleCard",componentId:"sc-fabca385-1"})`
+  position: relative;
+  flex: 1 0 0;
+  border-radius: 1rem;
+  padding: 1.5rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+  background-color: var(--fill-secondary);
+
+  * {
+    color: var(--text-primary);
+  }
+
+  @media ${o.mqLargeMin} {
+    border-radius: 2rem;
+  }
+`,v=s.default.img.withConfig({displayName:"product-bundle-items__BundleImage",componentId:"sc-fabca385-2"})`
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+`,j=s.default.p.withConfig({displayName:"product-bundle-items__BundleTitle",componentId:"sc-fabca385-3"})`
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  font-weight: 350;
+  line-height: 120%;
+  letter-spacing: -0.36px;
+
+  @media ${o.mqLargeMin} {
+    margin: 0.5rem 0 1rem;
+    font-size: 24px;
+  }
+`,w=s.default.p.withConfig({displayName:"product-bundle-items__CartContent",componentId:"sc-fabca385-4"})`
+  font-size: 16px;
+  font-weight: 350;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+`,S=s.default.span.withConfig({displayName:"product-bundle-items__Tag",componentId:"sc-fabca385-5"})`
+  border: 1px solid var(--outline-primary);
+  border-radius: 10rem;
+  padding: 0.375rem;
+  height: 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 350;
+  line-height: 100%;
+  letter-spacing: -0.24px;
+`,C=s.default.a.withConfig({displayName:"product-bundle-items__CardLink",componentId:"sc-fabca385-6"})`
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.04px;
+  text-underline-offset: 0.5rem;
+
+  @media ${o.mqLargeMin} {
+    margin-top: 1.5rem;
+  }
+`,I=s.default.span.withConfig({displayName:"product-bundle-items__MobileOnly",componentId:"sc-fabca385-7"})`
+  @media ${o.mqLargeMin} {
+    display: none;
+  }
+`,k=s.default.span.withConfig({displayName:"product-bundle-items__DesktopOnly",componentId:"sc-fabca385-8"})`
+  display: none;
+
+  @media ${o.mqLargeMin} {
+    display: inline;
+  }
+`,P=s.default.div.withConfig({displayName:"product-bundle-items__Badge",componentId:"sc-fabca385-9"})`
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  border-radius: 16px;
+  padding: 6px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  background-color: var(--guidance-primary);
+  color: var(--text-primary);
+
+  &.dm-wk {
+    background-color: var(--products-dm-02-dark);
+    color: var(--text-inverse-primary);
+  }
+`;function O({selectedSkus:e,bundleProducts:r}){let{getProduct:n}=(0,i.useContext)(a.ProductsContext),s=n(e[0]),o=n(e[1]),l=e=>{let t=e.match(/(™|®)/)?.index||-1;return{tag:t>=0&&e.slice(0,t+1),title:t>=0?e.slice(t+1):e}},d=(0,i.useMemo)(()=>l(s.name),[e]),c=(0,i.useMemo)(()=>l(o.name),[e]),u=(0,b.metaObjectItem)(r.metaObject,"product_one_card_content"),p=(0,b.metaObjectItem)(r.metaObject,"product_one_card_mobile_content")||u,m=(0,b.metaObjectItem)(r.metaObject,"product_two_card_content"),g=(0,b.metaObjectItem)(r.metaObject,"product_two_card_mobile_content")||m;return(0,t.jsxs)(_,{children:[(0,t.jsxs)(x,{children:[s?.shopifyData?.tags&&(0,t.jsx)(P,{className:s.shopifyData.sku,children:s.shopifyData.tags[0]}),(0,t.jsx)(v,{src:(0,b.metaObjectMedia)(r,(0,b.metaObjectItem)(r.metaObject,"product_one_image")).url,alt:(0,b.metaObjectMedia)(r,(0,b.metaObjectItem)(r.metaObject,"product_one_image")).altText}),(0,t.jsxs)("div",{children:[d.tag&&(0,t.jsx)(S,{children:d.tag}),(0,t.jsx)(j,{children:d.title}),(0,t.jsxs)(w,{children:[(0,t.jsx)(I,{children:p}),(0,t.jsx)(k,{children:u})]}),(0,t.jsx)(C,{href:(0,b.metaObjectItem)(r.metaObject,"product_one_card_link"),children:"Learn More"})]})]}),(0,t.jsxs)(x,{children:[o?.shopifyData?.tags&&(0,t.jsx)(P,{className:o.shopifyData.sku,children:o.shopifyData.tags[0]}),(0,t.jsx)(v,{src:(0,b.metaObjectMedia)(r,(0,b.metaObjectItem)(r.metaObject,"product_two_image")).url,alt:(0,b.metaObjectMedia)(r,(0,b.metaObjectItem)(r.metaObject,"product_two_image")).altText}),(0,t.jsxs)("div",{children:[c.tag&&(0,t.jsx)(S,{children:c.tag}),(0,t.jsx)(j,{children:c.title}),(0,t.jsxs)(w,{children:[(0,t.jsx)(I,{children:g}),(0,t.jsx)(k,{children:m})]}),(0,t.jsx)(C,{href:(0,b.metaObjectItem)(r.metaObject,"product_two_card_link"),children:"Learn More"})]})]})]})}let N=s.createGlobalStyle`
+  .site-content {
+    background-color: var(--fill-primary);
+
+    @media ${o.mqLargeMin}{
+      padding: 0;
+    }
+    #srp0-sticky {
+      z-index: 100;
+      transform: translateY(0);
+    }
+    #add-to-cart-new {
+      display: none;
+    }
+  }
+  .optly-hero-text {
+    top: 20% !important;
+    @media ${o.mqXXLargeMin} {
+      top: 25% !important;
+    }
+  }
+
+  #add-to-cart-cta:focus {
+    background-color: var(--fill-brand) !important;
+  }
+
+  ${l.PageTypePdp}
+`,E=({yotpoAverageScore:e,yotpoTotalReviews:s,siteBuy:o,productInfo:l,essentialsModule:u,benefitModule:b,nutrientsModule:_,testingModule:x,bundleProducts:v,essentialsBundleItems:j})=>{let{getProduct:w}=(0,i.useContext)(a.ProductsContext),S=w("syn-wk"),C=w("dm-wk");return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(N,{}),(0,t.jsx)(d.default,{yotpoAverageScore:e,yotpoTotalReviews:s}),(0,t.jsx)(r.YotpoReviewScript,{}),(0,t.jsxs)("div",{className:"container",children:[(0,t.jsx)(c.InternationalCurrencyModal,{location:"Daily Synbiotic PDP"}),l&&(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(m.default,{siteBuy:o,useCartContext:!0,selectedSkus:["syn-wk","dm-wk"],productInfo:l,bundleProducts:v,yotpoAverageScore:e,yotpoTotalReviews:s}),u&&(0,t.jsx)(p.default,{height:"200px",children:(0,t.jsx)(g.default,{productInfo:l,essentials:u,bundleModules:j})}),b&&(0,t.jsx)(p.default,{height:"200px",children:(0,t.jsx)(h.default,{benefits:b})}),_&&(0,t.jsx)(p.default,{height:"200px",children:(0,t.jsx)(y.default,{nutrients:_,productInfo:l})}),x&&(0,t.jsx)(p.default,{height:"200px",children:(0,t.jsx)(f.default,{testingModule:x,productInfo:l})}),v&&(0,t.jsx)(p.default,{height:"200px",children:(0,t.jsx)(O,{bundleProducts:v,selectedSkus:["syn-wk","dm-wk"]})})]})]}),S&&(0,t.jsx)(n.ReviewsDisplay,{imageUrl:"https://res.cloudinary.com/dljz0lko8/image/upload/f_auto,q_auto/v1722005137/Channel%20Catalogs/1_1_DM-02_2x.png",product:S,url:"/daily-synbiotic",price:S?.price}),C&&(0,t.jsx)(n.ReviewsDisplay,{imageUrl:"https://res.cloudinary.com/dljz0lko8/image/upload/f_auto,q_auto/v1722005137/Channel%20Catalogs/1_1_AM_2x.png",product:C,url:"/daily-multivitamin",price:C?.price})]})};e.s(["__N_SSG",0,!0,"default",0,({yotpoAverageScore:e,yotpoTotalReviews:i,siteBuy:a,productInfo:r,essentialsModule:n,benefitModule:s,nutrientsModule:o,testingModule:l,bundleModule:d,bundleProducts:c,essentialsBundleItems:p})=>(0,t.jsx)(u.CheckoutProvider,{children:(0,t.jsx)(E,{yotpoAverageScore:e,yotpoTotalReviews:i,siteBuy:a,productInfo:r,essentialsModule:n,benefitModule:s,nutrientsModule:o,testingModule:l,bundleProducts:c,essentialsBundleItems:p})})],948591)},563252,(e,t,i)=>{let a="/pdp/daily-essentials-duo";(window.__NEXT_P=window.__NEXT_P||[]).push([a,()=>e.r(948591)]),t.hot&&t.hot.dispose(function(){window.__NEXT_P.push([a])})},648761,e=>{e.v(t=>Promise.all(["static/chunks/0w-k5gkqz-f~m.js"].map(t=>e.l(t))).then(()=>t(493594)))},828805,e=>{e.v(t=>Promise.all(["static/chunks/0ol1pnpd9uivv.js"].map(t=>e.l(t))).then(()=>t(879466)))},950678,e=>{e.v(t=>Promise.all(["static/chunks/0pgxb3aczchco.js"].map(t=>e.l(t))).then(()=>t(668026)))},711055,e=>{e.v(e=>Promise.resolve().then(()=>e(672091)))},412210,e=>{e.v(t=>Promise.all(["static/chunks/0pglam5yn~7-l.js"].map(t=>e.l(t))).then(()=>t(80511)))},458547,e=>{e.v(t=>Promise.all(["static/chunks/0f7f30z816p.q.js"].map(t=>e.l(t))).then(()=>t(89987)))},555819,e=>{e.v(t=>Promise.all(["static/chunks/0t-x5lfsld.ff.js"].map(t=>e.l(t))).then(()=>t(875941)))},327703,e=>{e.v(t=>Promise.all(["static/chunks/0aky5tcpupqw5.js"].map(t=>e.l(t))).then(()=>t(579812)))},134746,e=>{e.v(t=>Promise.all(["static/chunks/0.sd1b~.nrpt-.js"].map(t=>e.l(t))).then(()=>t(788778)))},523721,e=>{e.v(t=>Promise.all(["static/chunks/09r305142kcds.js"].map(t=>e.l(t))).then(()=>t(97491)))},241222,e=>{e.v(t=>Promise.all(["static/chunks/01d~5p_.q30-q.js"].map(t=>e.l(t))).then(()=>t(677965)))},376594,e=>{e.v(t=>Promise.all(["static/chunks/035p_bm-ugy~9.js"].map(t=>e.l(t))).then(()=>t(132571)))},16214,e=>{e.v(t=>Promise.all(["static/chunks/0pyvnka9bliil.js","static/chunks/04yt~55mml-yk.js"].map(t=>e.l(t))).then(()=>t(187646)))},974911,e=>{e.v(t=>Promise.all(["static/chunks/14vntooq-tl0m.js"].map(t=>e.l(t))).then(()=>t(956178)))},884178,e=>{e.v(t=>Promise.all(["static/chunks/0mmih~65z_goa.js"].map(t=>e.l(t))).then(()=>t(373549)))},555482,e=>{e.v(t=>Promise.all(["static/chunks/0t3fbg48jstv9.js"].map(t=>e.l(t))).then(()=>t(481953)))}]);
+
+//# debugId=19b005ca-9dfb-983e-194c-e678a4e02ec4
+//# sourceMappingURL=0g29e~_m6.ssj.js.map

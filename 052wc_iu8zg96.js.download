@@ -1,0 +1,1458 @@
+;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="a5d3dcb8-eadc-e604-ebd1-998d356e25e9")}catch(e){}}();
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,178393,821410,740296,363609,253663,796596,908195,164885,893998,769117,685342,718862,e=>{"use strict";var i=e.i(391398),t=e.i(760814),a=e.i(198283),n=e.i(781971),o=e.i(869436),r=e.i(126019);let l=()=>(0,i.jsxs)("svg",{width:"20",height:"20",viewBox:"0 0 25 26",fill:"none",children:[(0,i.jsx)("circle",{cx:"12.5",cy:"12.5",r:"12",stroke:"#778971"}),(0,i.jsx)("line",{transform:"translate(7,7)",x1:"5.6333",y1:"0.25",x2:"5.6333",y2:"11.25",stroke:"#778971"}),(0,i.jsx)("line",{transform:"translate(7,7)",x1:"11",y1:"5.8833",x2:"-4.37114e-08",y2:"5.8833",stroke:"#778971"})]});var s=e.i(706502),d=e.i(682128),c=e.i(341949),p=e.i(393428);let m=t.default.div.withConfig({displayName:"what-vaginal-microbiome-drawer__DesktopPadding",componentId:"sc-5177dd69-0"})`
+  @media ${c.mqLargeMin} {
+    padding-right: 132px;
+  }
+`,h=t.default.div.withConfig({displayName:"what-vaginal-microbiome-drawer__ChartContainer",componentId:"sc-5177dd69-1"})`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  @media ${c.mqLargeMin} {
+    padding-bottom: 48px;
+  }
+`,g=()=>{let e=(0,p.isMobileDevice)(),t=`${n.default.cloudinary}/f_auto,q_auto/v1715962863/vs-01/Converter_Graph_Alt_1.png`,a=`${n.default.cloudinary}/f_auto,q_auto/v1715962917/vs-01/Converter_Graph_Alt_2.png`;return(0,i.jsxs)("div",{children:[(0,i.jsx)(s.DrawerRowContainer,{children:(0,i.jsx)(s.DrawerHeader,{children:"VS-01™ Vaginal Synbiotic"})}),(0,i.jsxs)(s.DrawerRowContainer,{children:[(0,i.jsx)(s.DrawerColumnContainer,{children:(0,i.jsxs)(m,{children:[(0,i.jsxs)(s.Text,{style:{width:"100%"},children:[(0,i.jsx)(s.BigTitle,{children:"What Is the Vaginal Microbiome?"}),(0,i.jsxs)("div",{children:[(0,i.jsxs)(s.Paragraph,{children:["Comprised of bacteria, fungi, and viruses, this ecosystem is critical to your gynecological, urogenital, and reproductive health. Unlike the diverse gut microbiome, the vaginal microbiome thrives when dominated by one bacterium:"," ",(0,i.jsx)(s.ItalicizedWord,{children:"L. crispatus"}),"."]}),(0,i.jsx)(s.Paragraph,{style:{marginTop:"12px"},children:"However, many lack this abundance, leading to susceptibility to disruptions and imbalances."})]})]}),(0,i.jsxs)(s.Subtitle,{children:["9 out of 10 women have an unstable vaginal microbiome.",(0,i.jsx)("sup",{children:"1"})]})]})}),(0,i.jsxs)(s.DrawerColumnContainer,{children:[(0,i.jsxs)(h,{style:{flexShrink:".02"},children:[(0,i.jsx)(s.Caption,{children:"Proportion of Subjects by Stability"}),(0,i.jsx)(r.default,{src:e?a:t,width:e?327:636,height:259,alt:"graph showing 90% of women have an unstable vaginal microbiome"}),(0,i.jsx)(s.Caption,{children:"% of Subjects"})]}),(0,i.jsxs)(s.Caption,{children:["Figure 1. The proportion of participants who underwent daily sampling and had a stability score equal to or greater than 90%. Only 10% of participants exhibited a stable vaginal microbiome. Stability score was defined as the proportion of days in which an individual had an ",(0,i.jsx)(s.ItalicizedWord,{children:"L. crispatus"})," dominated microbiome."]})]})]}),(0,i.jsx)(s.DrawerRowContainer,{children:(0,i.jsxs)(s.DrawerColumnContainer,{children:[(0,i.jsx)(s.CitationsTitle,{children:"Citations"}),(0,i.jsxs)(s.Citation,{children:[(0,i.jsx)("sup",{children:"1"})," Seed Health R+D (2024) Disruption and Stability of the Vaginal Microbiome: A Data-Driven Approach [",(0,i.jsx)("a",{target:"_blank",href:"/cultured/research-analysis-disruption-and-stability-of-the-vaginal-microbiome/",children:"White Paper"}),"] Seed Health."]})]})})]})};var u=e.i(191788),x=e.i(156);let f=(0,p.isMobileDevice)(),y=t.default.div.withConfig({displayName:"day-to-day-module__Container",componentId:"sc-b4910057-0"})`
+  overflow: hidden;
+`,v=t.default.div.withConfig({displayName:"day-to-day-module__MobileImageContainer",componentId:"sc-b4910057-1"})`
+  margin-right: -2.5em;
+  margin-left: -30px;
+  margin-top: 24px;
+  overflow: hidden;
+  position: relative;
+  min-height: 500px;
+`,b=t.default.div.withConfig({displayName:"day-to-day-module__MobilePillInnerContainer",componentId:"sc-b4910057-2"})`
+  width: 327px;
+  height: 190px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 12px;
+`,w=t.default.div.withConfig({displayName:"day-to-day-module__MobilePillOuterContainer",componentId:"sc-b4910057-3"})`
+  min-height: 500px;
+  margin-top: 24px;
+  padding-left: 24px;
+  position: relative;
+  z-index: 1;
+`,j=t.default.div.withConfig({displayName:"day-to-day-module__DesktopPillContainer",componentId:"sc-b4910057-4"})`
+  padding-right: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 12px;
+`,_=t.default.div.withConfig({displayName:"day-to-day-module__CarouselContainer",componentId:"sc-b4910057-5"})`
+  display: flex;
+  flex-direction: row;
+`,C=["Menstruation","Diet","Stress","Past Pregnancy","Exercise","Swimming","Sex","Sex Toys","Condom Use","Oral Sex","Gels and Lubricants","Certain Contraceptives","Certain Prescriptions","Certain Cleansers","Feminine Hygiene Products"],S=[{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627217/vs-01/dayToDay/Disruptor-1.jpg`,width:375,height:500,caption:"Close-up of person's face"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627216/vs-01/dayToDay/Disruptor-2.jpg`,width:375,height:500,caption:"Point of view image of person in swimsuit looking down at thighs"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627217/vs-01/dayToDay/Disruptor-3.jpg`,width:375,height:500,caption:"Picture of person sitting on tennis court"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627216/vs-01/dayToDay/Disruptor-4.jpg`,width:375,height:500,caption:"Picture of person sitting on bathroom sink while shaving thighs"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627217/vs-01/dayToDay/Disruptor-5.jpg`,width:375,height:500,caption:"Point of view image of person looking down at feet while sitting on toilet"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627216/vs-01/dayToDay/Disruptor-6.jpg`,width:375,height:500,caption:"Close-up of person lying on yoga mat"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627217/vs-01/dayToDay/Disruptor-7.jpg`,width:375,height:500,caption:"Close-up of person lying in bed"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627216/vs-01/dayToDay/Disruptor-8.jpg`,width:375,height:500,caption:"Point of view image of person laying on their back and looking at a river between their legs"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627216/vs-01/dayToDay/Disruptor-9.jpg`,width:375,height:500,caption:"Close-up of person's face"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627216/vs-01/dayToDay/Disruptor-10.jpg`,width:375,height:500,caption:"Picture of person in swimsuit floating on their back in a pool"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627216/vs-01/dayToDay/Disruptor-11.jpg`,width:375,height:500,caption:"Point of view image of person looking down at feet while sitting on toilet"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627216/vs-01/dayToDay/Disruptor-12.jpg`,width:375,height:500,caption:"Close-up of person's face"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627216/vs-01/dayToDay/Disruptor-13.jpg`,width:375,height:500,caption:"Picture of person lying on bed in their underwear"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627216/vs-01/dayToDay/Disruptor-14.jpg`,width:375,height:500,caption:"Point of view image of person laying on their back and looking at trees between their legs"},{img:`${n.default.cloudinary}/f_auto,q_auto/v1715627216/vs-01/dayToDay/Disruptor-15.jpg`,width:375,height:500,caption:"Picture of person swimming on their back in the ocean"}];e.s(["default",0,()=>{let e,t=0,n=()=>{let e=Array.from(document.getElementById("disruptorContainer")?.children||[]);e?.forEach((e,i)=>{i===t?e.style.display="block":e.style.display="none"}),(t+=1)>=e.length&&(t=0)};return(0,u.useEffect)(()=>(e=setInterval(n,1e3),()=>{clearInterval(e)}),[]),(0,i.jsx)(y,{children:(0,i.jsxs)(s.InnerColumnContainer,{children:[(0,i.jsxs)(s.BigTitle,{style:{maxWidth:"1000px"},children:["Day-to-day life can disrupt the balance of your vaginal microbiome, depleting its critical super defender—",(0,i.jsx)(s.ItalicizedWord,{children:"Lactobacillus crispatus"}),"."]}),!f&&(0,i.jsxs)("div",{children:[(0,i.jsx)(s.RowContainer,{children:(0,i.jsx)(j,{children:C.map(e=>(0,i.jsx)(s.PillWrapper,{children:(0,i.jsx)("p",{children:e})},e))})}),(0,i.jsx)(s.RowContainer,{children:(0,i.jsx)(a.default,{style:{overflowX:"visible"},direction:"right",children:(0,i.jsx)(i.Fragment,{children:S.map(({img:e,width:t,height:a,caption:n})=>(0,i.jsx)(r.default,{src:e,width:t,height:a,alt:n,style:{backgroundColor:"#000"}},e))})})})]}),f&&(0,i.jsxs)(v,{children:[(0,i.jsx)(_,{id:"disruptorContainer",children:S.map(({img:e,caption:t})=>(0,i.jsx)(r.default,{id:"disruptors-image-cycle",src:e,fill:!0,objectFit:"cover",alt:`picture of ${t}`},e))}),(0,i.jsx)(w,{children:(0,i.jsx)(b,{children:C.map(e=>(0,i.jsx)(s.PillWrapper,{className:"marquee-item-pill",children:(0,i.jsx)("p",{children:e})},e))})})]}),(0,i.jsx)(s.RowContainer,{children:(0,i.jsxs)(s.OpenDrawerButton,{onClick:()=>{(0,x.showPopup)("day-to-day-module"),o.default.trackButtonClicked("What Is Vaginal Microbiome Drawer","VS-01 PDP",{})},id:"popup-source-button-day-to-day-module",children:[(0,i.jsx)(l,{}),(0,i.jsx)(s.OpenDrawerText,{children:"What Is the Vaginal Microbiome?"})]})}),(0,i.jsx)(d.default,{id:"day-to-day-module",type:"drawer",children:(0,i.jsx)(g,{})})]})})}],178393);var $=e.i(605990),I=e.i(148225);let k=[{title:"HSA / FSA Eligibility",content:"You can purchase VS-01&trade; using your HSA or FSA debit card at checkout. Check with your plan       administrator as specific approval may vary by carrier."},{title:"Community Engagement",content:`More programs and education are on the way. If you know of a nonprofit organization or healthcare \
+        provider interested in collaborating, email
+        <a role='link' tabIndex={0} className='email' style='color: inherit' href='mailto:impact@seed.com'>
+            impact@seed.com
+        </a>.`}],N=t.default.section.withConfig({displayName:"expanding-impact-module__BlueGradientContainer",componentId:"sc-4e0b121d-0"})`
+  background: radial-gradient(
+    128.28% 141.2% at 0% 98.91%,
+    #92b3c6 0%,
+    #83a6bc 40.8%,
+    #7397ad 64.62%,
+    #6c91a9 100%
+  );
+  font-color: var(--text-inverse-primary);
+  position: relative;
+`,M=t.default.h2.withConfig({displayName:"expanding-impact-module__Title",componentId:"sc-4e0b121d-1"})`
+  font: ${I.Fontw35s26h31};
+  color: var(--text-inverse-primary);
+
+  @media ${c.mqLargeMin} {
+    ${I.Fontw35s48h56}
+  }
+`,q=(0,t.default)(s.Text).withConfig({displayName:"expanding-impact-module__StyledText",componentId:"sc-4e0b121d-2"})`
+  @media ${c.mqLargeMin} {
+    width: 75% !important;
+  }
+`,D=(0,t.default)(s.RightColumn).withConfig({displayName:"expanding-impact-module__StyledRightColumn",componentId:"sc-4e0b121d-3"})`
+  padding-top: 24px;
+  @media ${c.mqLargeMin} {
+    padding-top: 8px !important;
+  }
+  * {
+    ${I.Fontw4s14h20}
+    color: var(--text-inverse-primary);
+    @media ${c.mqLargeMin} {
+      ${I.Fontw4s16h24}
+      color: var(--text-inverse-primary);
+    }
+  }
+`,L=t.default.div.withConfig({displayName:"expanding-impact-module__StyledAccordionContent",componentId:"sc-4e0b121d-4"})`
+    position: absolute;
+    padding-right: 24px;
+    z-index: 1;
+    @media ${c.mqLargeMin} {
+        padding-right: 5px;
+        position: relative;
+    }
+}
+`;e.s(["default",0,()=>{let e=(0,p.isMobileDevice)();return(0,i.jsxs)(N,{children:[(0,i.jsxs)(s.InnerRowContainer,{style:{position:"relative",paddingBottom:"0px"},children:[(0,i.jsxs)(q,{children:[(0,i.jsx)(M,{style:{color:"white"},children:"Expanding Impact and Access"}),(0,i.jsxs)("div",{children:[(0,i.jsx)(s.Paragraph,{style:{color:"white"},children:"Women's health has been neglected for far too long. Inadequate funding and research have stifled innovation and left critical gaps in care."}),(0,i.jsx)(s.Paragraph,{style:{color:"white",marginTop:"12px"},children:"While VS-01™ marks an exciting milestone in our effort to prioritize vaginal microbiome research and address the unmet needs of people with vaginas, we believe there is much more to be done when it comes to democratizing safe and effective care. Here are a few ways we're working to improve access:"})]})]}),(0,i.jsxs)(D,{children:[(0,i.jsx)(L,{children:k.map((e,t)=>(0,i.jsx)($.default,{index:t,title:e.title,stringContent:e.content,isWhite:!0,overwriteTitleColor:"white",overwriteBorderClass:"borderWhite",onClick:()=>{o.default.trackButtonClicked(e.title,"Impact and Access VS",{})}},e.title))}),!e&&(0,i.jsxs)(s.Caption,{style:{color:"white",paddingTop:"50px"},children:["We recognize that the definition of women's health is evolving. To ensure inclusivity in our language, imagery, and marketing, we have partnered with the             ",(0,i.jsx)("a",{target:"_blank",href:"https://penneidos.org/",style:{color:"inherit",fontSize:"inherit"},children:"Eidos LGBTQ+ Health Initiative at the University of Pennsylvania"}),"."]})]}),e&&(0,i.jsx)(()=>(0,i.jsxs)("div",{style:{display:"flex",flexDirection:"column",position:"relative",justifyContent:"flex-end"},children:[(0,i.jsxs)(s.Caption,{style:{color:"white",position:"absolute",zIndex:1,paddingBottom:"32px"},children:["We recognize that the definition of women's health is evolving. To ensure inclusivity in our language, imagery, and marketing, we have partnered with the         ",(0,i.jsx)("a",{target:"_blank",href:"https://penneidos.org/",style:{color:"inherit",fontSize:"inherit"},children:"Eidos LGBTQ+ Health Initiative at the University of Pennsylvania"}),"."]}),(0,i.jsx)("img",{src:`${n.default.cloudinary}/f_auto,q_auto/v1715978105/vs-01/Tablet_in_Hand_Mobile.png`,alt:"Hand holding VS-01 tablet",style:{height:"100%",width:"100%",inset:"0px",objectFit:"contain",position:"relative",marginLeft:"-24px",marginTop:"65px"}})]}),{})]}),!e&&(0,i.jsx)(r.default,{src:`${n.default.cloudinary}/f_auto,q_auto/v1715978105/vs-01/Tablet_in_Hand_Desktop.png`,alt:"Hand holding VS-01 tablet",width:601,height:525,style:{marginBottom:"-7px",marginTop:"-230px"}})]})}],821410);var T=e.i(738221),z=e.i(41158);let F=t.default.div.withConfig({displayName:"vs-research-timeline__Container",componentId:"sc-6c3a1f3f-0"})`
+  display: flex !important;
+  flex-direction: column;
+  gap: 48px;
+  padding: 48px 0;
+  max-width: 550px;
+
+  @media ${c.mqSmallMax} {
+    gap: 24px;
+  }
+`,P=t.default.div.withConfig({displayName:"vs-research-timeline__Header",componentId:"sc-6c3a1f3f-1"})`
+  ${I.Fontw5s14h20} !important;
+
+  @media ${c.mqSmallMax} {
+    ${I.Fontw5s12h18} !important;
+  }
+`,V=t.default.div.withConfig({displayName:"vs-research-timeline__SubHeader",componentId:"sc-6c3a1f3f-2"})`
+  ${I.Fontw35s48h56} !important;
+
+  @media ${c.mqSmallMax} {
+    ${I.Fontw35s24h32} !important;
+  }
+`,A=t.default.div.withConfig({displayName:"vs-research-timeline__Body",componentId:"sc-6c3a1f3f-3"})`
+  ${I.Fontw4s16h24};
+`,B=t.default.div.withConfig({displayName:"vs-research-timeline__BioCard",componentId:"sc-6c3a1f3f-4"})`
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+`,R=t.default.div.withConfig({displayName:"vs-research-timeline__BioCardTitle",componentId:"sc-6c3a1f3f-5"})`
+  ${I.Fontw5s14h20};
+`,H=t.default.div.withConfig({displayName:"vs-research-timeline__BioCardText",componentId:"sc-6c3a1f3f-6"})`
+  ${I.Fontw4s14h21};
+`,W=t.default.div.withConfig({displayName:"vs-research-timeline__Timeline",componentId:"sc-6c3a1f3f-7"})`
+  visibility: visible;
+  margin-top: 18px;
+`,O=t.default.div.withConfig({displayName:"vs-research-timeline__TimelineSection",componentId:"sc-6c3a1f3f-8"})`
+  border-left: 1px dashed #778971;
+  padding-left: 16px;
+  padding-bottom: 12px;
+
+  &:last-child {
+    padding-bottom: 0px;
+    border-left: none;
+  }
+`,E=t.default.div.withConfig({displayName:"vs-research-timeline__TimelineBorderSection",componentId:"sc-6c3a1f3f-9"})`
+  border: 10px solid transparent;
+  border-bottom: none;
+  border-right: none;
+  transform: translate(-4px, 2px);
+  border-image: url(https://res.cloudinary.com/dljz0lko8/image/upload/q_auto/v1714493949/timelineBorderEllipse.svg)
+    10 round;
+
+  &:first-child {
+    border-image: url(https://res.cloudinary.com/dljz0lko8/image/upload/q_auto/v1714497141/timelineTriangle.svg)
+      10;
+  }
+`,U=t.default.div.withConfig({displayName:"vs-research-timeline__TimelineDate",componentId:"sc-6c3a1f3f-10"})`
+  ${I.Fontw35s24h36};
+  transform: translate(0px, -18px);
+`,G=t.default.div.withConfig({displayName:"vs-research-timeline__TimelineBody",componentId:"sc-6c3a1f3f-11"})`
+  margin-bottom: 12px;
+  transform: translate(0px, -18px);
+`,J=t.default.div.withConfig({displayName:"vs-research-timeline__CitationsContainer",componentId:"sc-6c3a1f3f-12"})``,X=t.default.div.withConfig({displayName:"vs-research-timeline__CitationsHeader",componentId:"sc-6c3a1f3f-13"})`
+  ${I.Fontw5s14h18};
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+`,K=t.default.span.withConfig({displayName:"vs-research-timeline__CitationsBody",componentId:"sc-6c3a1f3f-14"})`
+  ${I.Fontw4s12h16};
+  vertical-align: ${e=>e.$isSuper?"super":"initial"};
+`,Q=(0,u.memo)(()=>(0,i.jsxs)(F,{children:[(0,i.jsx)(P,{children:T.default.product_title}),(0,i.jsx)(V,{children:T.default.drawer_subheader}),(0,i.jsx)(A,{children:T.default.drawer_body}),(0,i.jsxs)(B,{children:[(0,i.jsx)(r.default,{src:"https://res.cloudinary.com/dljz0lko8/image/upload/f_auto,q_auto/v1714151544/Ellipse_4425_1.png",alt:"Jacques Ravel, PhD",height:"80",width:"80",priority:!1}),(0,i.jsxs)("div",{children:[(0,i.jsx)(R,{children:"Jacques Ravel, PhD"}),(0,i.jsx)(H,{children:"Seed Scientific Advisor"}),(0,i.jsx)(H,{children:"Founder, LUCA Platform"})]})]}),(0,i.jsxs)(W,{children:[(0,i.jsx)(E,{}),(0,i.jsxs)(O,{children:[(0,i.jsx)(U,{children:"2006"}),(0,i.jsx)(G,{children:"Dr. Ravel receives the first-ever NIH grant dedicated to studying the vaginal microbiome."})]}),(0,i.jsx)(E,{}),(0,i.jsxs)(O,{children:[(0,i.jsx)(U,{children:"2009"}),(0,i.jsx)(G,{children:"Dr Ravel initiates the vaginal program under the NIH’s Human Microbiome Project (HMP) to define what constitutes a healthy vaginal microbiome."})]}),(0,i.jsx)(E,{}),(0,i.jsxs)(O,{children:[(0,i.jsx)(U,{children:"2012"}),(0,i.jsxs)(G,{children:["Dr. Ravel publishes a landmark study",(0,i.jsx)(K,{$isSuper:!0,children:"1"})," demonstrating that the most stable and optimal vaginal microbiome is dominated by one bacterium:"," ",(0,i.jsx)(s.ItalicizedWord,{children:"Lactobacillus crispatus"}),"."]})]}),(0,i.jsx)(E,{}),(0,i.jsxs)(O,{children:[(0,i.jsx)(U,{children:"2016-Present"}),(0,i.jsx)(G,{children:"Seed partners with Dr. Ravel to launch LUCA Biologics, a vaginal microbiome platform targeting the vaginal microbiome for unmet needs in gynecological and reproductive health."})]}),(0,i.jsx)(E,{}),(0,i.jsxs)(O,{children:[(0,i.jsx)(U,{children:"2020"}),(0,i.jsxs)(G,{children:["Dr. Ravel publishes the largest metagenomic gene catalog",(0,i.jsx)(K,{$isSuper:!0,children:"2"})," of the vaginal microbiome to date."]})]}),(0,i.jsx)(E,{}),(0,i.jsxs)(O,{children:[(0,i.jsx)(U,{children:"2023"}),(0,i.jsxs)(G,{children:["Dr. Ravel publishes the most comprehensive metagenomic analysis",(0,i.jsx)(K,{$isSuper:!0,children:"3"})," characterizing the vaginal microbiome into 27 community state types, including 6 sub-types of"," ",(0,i.jsx)(s.ItalicizedWord,{children:"L. crispatus"}),"."]})]}),(0,i.jsx)(E,{}),(0,i.jsxs)(O,{children:[(0,i.jsx)(U,{children:"Today"}),(0,i.jsx)(G,{children:"VS-01™ is the first innovation to emerge from Seed's vaginal microbiome platform, setting a new paradigm of innovation, empowerment, and care."})]})]}),(0,i.jsxs)(J,{children:[(0,i.jsx)(X,{children:"CITATIONS"}),(0,i.jsx)(K,{$isSuper:!0,children:"1"}),(0,i.jsxs)(K,{$isSuper:!1,children:[" Gajer, P., Brotman, R. M., Bai, G., Sakamoto, J., Schütte, U. M., Zhong, X., Koenig, S. S., Fu, L., Ma, Z. S., Zhou, X., Abdo, Z., Forney, L. J., & Ravel, J. (2012). Temporal dynamics of the human vaginal microbiota. Science Translational Medicine, 4(132), 132ra52. ",(0,i.jsx)(z.default,{href:"https://doi.org/10.1126/scitranslmed.3003605",prefetch:!1,children:(0,i.jsx)(K,{$isSuper:!1,children:"https://doi.org/10.1126/scitranslmed.3003605"})})]}),(0,i.jsx)(X,{}),(0,i.jsx)(K,{$isSuper:!0,children:"2"}),(0,i.jsxs)(K,{$isSuper:!1,children:[" Brouillett, Monique. Scientific American. 2020. Decoding the Vaginal Microbiome. Retrieved May 4, 2024, from ",(0,i.jsx)(z.default,{href:"https://www.scientificamerican.com/article/decoding-the-vaginal-microbiome/",prefetch:!1,children:(0,i.jsx)(K,{$isSuper:!1,children:"https://www.scientificamerican.com/article/decoding-the-vaginal-microbiome/"})})]}),(0,i.jsx)(X,{}),(0,i.jsx)(K,{$isSuper:!0,children:"3"}),(0,i.jsxs)(K,{$isSuper:!1,children:[" Holm, J.B., France, M.T., Gajer, P. et al. Integrating compositional and functional content to describe vaginal microbiomes in health and disease. Microbiome 11, 259 (2023).",(0,i.jsx)("br",{}),(0,i.jsx)(z.default,{href:"https://doi.org/10.1186/s40168-023-01692-x",prefetch:!1,children:(0,i.jsx)(K,{$isSuper:!1,children:"https://doi.org/10.1186/s40168-023-01692-x"})})]})]})]})),Y=t.default.div.withConfig({displayName:"l-crispatus__Container",componentId:"sc-a33dae27-0"})`
+  width: 100%;
+  padding: 48px;
+  max-width: 1440px;
+  margin: 0px auto;
+
+  @media ${c.mqSmallMax} {
+    padding: 40px 24px 32px 24px;
+  }
+`,Z=t.default.div.withConfig({displayName:"l-crispatus__ContainerInternal",componentId:"sc-a33dae27-1"})`
+  width: 100%
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+
+  @media ${c.mqSmallMax} {
+    flex-direction: column;
+    gap: 24px;
+  }
+`,ee=t.default.div.withConfig({displayName:"l-crispatus__TextContainer",componentId:"sc-a33dae27-2"})`
+  ${I.Fontw5s14h18};
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media ${c.mqSmallMax} {
+    gap: 28px;
+  }
+`,ei=t.default.div.withConfig({displayName:"l-crispatus__UpperTextContainer",componentId:"sc-a33dae27-3"})``,et=(0,t.default)(s.Eyebrow).withConfig({displayName:"l-crispatus__StyledEyebrow",componentId:"sc-a33dae27-4"})`
+  margin-bottom: 16px;
+
+  @media ${c.mqLargeMin} {
+    margin-bottom: 32px;
+  }
+`,ea=t.default.div.withConfig({displayName:"l-crispatus__Body",componentId:"sc-a33dae27-5"})`
+  ${I.Fontw35s48h56};
+  color: var(--text-primary);
+
+  @media ${c.mqSmallMax} {
+    ${I.Fontw35s24h32};
+  }
+`,en=t.default.div.withConfig({displayName:"l-crispatus__ImageContainer",componentId:"sc-a33dae27-6"})`
+  width: 100%;
+`,eo=t.default.div.withConfig({displayName:"l-crispatus__ImageDescription",componentId:"sc-a33dae27-7"})`
+  ${I.Fontw4s12h16};
+  color: var(--text-secondary);
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 100%;
+`,er=t.default.div.withConfig({displayName:"l-crispatus__DesktopOnlyButtonContainer",componentId:"sc-a33dae27-8"})`
+  @media ${c.mqSmallMax} {
+    display: none;
+  }
+`,el=t.default.div.withConfig({displayName:"l-crispatus__MobileOnlyButtonContainer",componentId:"sc-a33dae27-9"})`
+  display: none;
+  @media ${c.mqSmallMax} {
+    display: block;
+  }
+`;e.s(["default",0,()=>{let e=()=>{(0,x.showPopup)("vs-research-timeline"),o.default.trackButtonClicked("Vaginal Microbiome Discoveries Drawer","VS-01 PDP",{})};return(0,i.jsxs)(Y,{children:[(0,i.jsxs)(Z,{children:[(0,i.jsxs)(ee,{children:[(0,i.jsxs)(ei,{children:[(0,i.jsx)(et,{children:"BUILT ON DR. JACQUES RAVEL’S RESEARCH"}),(0,i.jsxs)(ea,{children:["VS-01™ emerged from the discovery that specific strains of ",(0,i.jsx)(s.ItalicizedWord,{children:"L. crispatus"}),"  defend the vaginal microbiome from pH disruptions and imbalances."]})]}),(0,i.jsx)(er,{children:(0,i.jsxs)(s.OpenDrawerButton,{onClick:()=>{e()},children:[(0,i.jsx)(l,{}),(0,i.jsx)(s.OpenDrawerText,{children:"Vaginal Microbiome Discoveries"})]})})]}),(0,i.jsxs)(en,{children:[(0,i.jsx)(r.default,{src:"https://res.cloudinary.com/dljz0lko8/image/upload/v1713976799/vs-01/lcrispatuspdp.png",alt:"L. crispatus",width:648,height:648,style:{width:"100%",height:"auto"}}),(0,i.jsxs)(eo,{children:["Fig 1. Our three proprietary"," ",(0,i.jsx)(s.ItalicizedWord,{children:"L. crispatus"})," strains in VS-01™."]})]}),(0,i.jsx)(el,{children:(0,i.jsxs)(s.OpenDrawerButton,{onClick:()=>{e()},children:[(0,i.jsx)(l,{}),(0,i.jsx)(s.OpenDrawerText,{children:"Vaginal Microbiome Discoveries"})]})})]}),(0,i.jsx)(d.default,{id:"vs-research-timeline",type:"drawer",children:(0,i.jsx)(Q,{})})]})}],740296);let es=t.default.div.withConfig({displayName:"individual-tab__DefaultTabDiv",componentId:"sc-5a58dc12-0"})`
+  button {
+    ${I.Fontw5s14h18}
+    padding: 20px 40px 20px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    @media ${c.mqLargeMin} {
+      padding-right: 120px;
+    }
+  }
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid;
+
+  ${e=>e.$isInactive&&`
+    color: var(--text-secondary);
+    button {
+        color: var(--text-secondary);
+      }
+  `}
+
+  &:last-child {
+    button {
+      padding: 20px 0px;
+      @media ${c.mqLargeMin} {
+        padding-right: 60px;
+      }
+    }
+    padding-right: 0;
+  }
+`,ed=e=>{let{activeTab:t,label:a,StyledTab:n=es,handleOnClick:o,ariaLabel:r}=e,l=t!==a;return(0,i.jsx)(n,{$isInactive:l,children:(0,i.jsx)("button",{onClick:o,type:"button",role:"tab","aria-selected":!l,"aria-label":r,children:a})})};var ec=e.i(816416);let ep=t.default.div.withConfig({displayName:"styled-tabs__TabsContainer",componentId:"sc-1bea0985-0"})`
+  display: flex;
+  flex-direction: column;
+`,em=t.default.div.withConfig({displayName:"styled-tabs__TabsRow",componentId:"sc-1bea0985-1"})`
+  display: flex;
+  flex-direction: row;
+`,eh=t.default.div.withConfig({displayName:"styled-tabs__DefaultContentContainer",componentId:"sc-1bea0985-2"})`
+  ${I.Fontw4s14h20}
+  padding: 14px 0px;
+  @media ${c.mqSmallMin} {
+    width: 340px;
+  }
+`,eg=e=>{let{tabs:t,StyledTab:a,StyledContent:n=eh}=e,[r,l]=u.default.useState(t[0].label),[s,d]=u.default.useState(t[0].content);return(0,i.jsxs)(ep,{children:[(0,i.jsx)(em,{role:"tablist",children:t.map(e=>(0,i.jsx)(ed,{activeTab:r,label:e.label,StyledTab:a,handleOnClick:()=>{o.default.trackButtonClicked(e.label,window.location.href,{}),l(e.label),d(e.content)}},e.label))}),(0,i.jsx)(n,{dangerouslySetInnerHTML:(0,ec.createMarkup)(s)})]})};var eu=e.i(13058);let ex=t.default.div.withConfig({displayName:"formulation-drawer__DesktopPadding",componentId:"sc-52bff028-0"})`
+  @media ${c.mqLargeMin} {
+    padding-right: 132px;
+  }
+`,ef=t.default.div.withConfig({displayName:"formulation-drawer__IconParagraph",componentId:"sc-52bff028-1"})`
+  margin-top: 12px;
+  ${I.Fontw4s16h24}
+
+  @media ${c.mqLargeMin} {
+    margin-top: 12px;
+    ${I.Fontw4s16h24}
+  }
+`,ey=[{title:"Probiotic Ecology",content:'<i style="white-space: nowrap;"> L. crispatus </i> LUCA103™, <i style="white-space: nowrap;"> L. crispatus </i> LUCA011™, <i style="white-space: nowrap;"> L. crispatus </i> LUCA009™'},{title:"Nutrient Complex",content:"Maltose, Calcium Lactate, Glutamine, DiBasic Magnesium Citrate, Cystine"},{title:"Other Ingredients",content:"Plant-Derived Cellulose, Magnesium Stearate, Hydroxypropyl Methylcellulose (HPMC)"}],ev=[{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635952/formulation-icons/Non-irritating.svg",text:"Non-Irritating"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/non-toxic.svg",text:"Non-Toxic"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/no-pfas.svg",text:"No PFAS"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/no-preservatives.svg",text:"No Preservatives or Parabens"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/no-bpas.svg",text:"No BPAs"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/no-pthalates.svg",text:"No Phthalates"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/vegan.svg",text:"Vegan"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/no-fragrances-or-dyes.svg",text:"No Artificial Fragrances or Dyes"}],eb=()=>(0,i.jsxs)("div",{children:[(0,i.jsx)(s.DrawerRowContainer,{children:(0,i.jsx)(s.DrawerHeader,{children:"VS-01™ Vaginal Synbiotic"})}),(0,i.jsxs)(s.DrawerRowContainer,{children:[(0,i.jsx)(s.DrawerColumnContainer,{children:(0,i.jsxs)(ex,{children:[(0,i.jsx)(s.BigTitle,{children:"Formulation"}),(0,i.jsx)("div",{style:{paddingBottom:"24px"}}),(0,i.jsxs)(s.Aside,{children:["850mg per tablet",(0,i.jsx)("br",{}),"No refrigeration required."]}),(0,i.jsx)("div",{style:{paddingBottom:"24px"}})]})}),(0,i.jsxs)(s.DrawerColumnContainer,{children:[ey.map(e=>(0,i.jsx)($.default,{index:e.title,title:e.title,stringContent:e.content,overwriteTitleColor:"green",overwriteBorderClass:"borderLightBlue",hasSmallSpacing:!0},e.title)),(0,i.jsx)(ef,{children:"Tested for biocompatibility with the vaginal environment, 14 classes of allergens, 500+ contaminants, and osmolality."}),(0,i.jsx)(eu.default,{iconContent:ev,mobileIconRows:!0}),(0,i.jsx)(s.DisclaimerContainer,{children:(0,i.jsx)(s.Disclaimer,{children:"VS-01™ requires your body’s natural lubrication for proper dissolution, and therefore may not be as effective among women experiencing significant vaginal dryness."})})]})]})]});var ew=e.i(4912);let ej=t.default.section.withConfig({displayName:"our-discovery-module__VideoModuleContainer",componentId:"sc-5ecbdfed-0"})`
+  background-color: ${e=>e.$isMobileBackground?"#D4E2E2":"#dae6e5"};
+`,e_=(0,t.default)(s.Eyebrow).withConfig({displayName:"our-discovery-module__StyledEyebrow",componentId:"sc-5ecbdfed-1"})`
+  margin-bottom: 16px;
+
+  @media ${c.mqLargeMin} {
+    margin-bottom: 32px;
+  }
+`,eC=t.default.div.withConfig({displayName:"our-discovery-module__OuterFlexColumn",componentId:"sc-5ecbdfed-2"})`
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+`,eS=t.default.div.withConfig({displayName:"our-discovery-module__LeftFlexColumn",componentId:"sc-5ecbdfed-3"})`
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  margin-bottom: 20px;
+  @media ${c.mqSmallMin} {
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+`,e$=t.default.div.withConfig({displayName:"our-discovery-module__RightFlexColumn",componentId:"sc-5ecbdfed-4"})`
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  @media ${c.mqSmallMin} {
+    margin-left: 24px;
+  }
+`,eI=t.default.div.withConfig({displayName:"our-discovery-module__FlexRow",componentId:"sc-5ecbdfed-5"})`
+  @media ${c.mqLargeMin} {
+    display: flex;
+    flex-direction: row;
+  }
+`,ek=t.default.div.withConfig({displayName:"our-discovery-module__MarginTop",componentId:"sc-5ecbdfed-6"})`
+  margin-top: 24px;
+  @media ${c.mqLargeMin} {
+    margin-top: -8px;
+  }
+`,eN=t.default.div.withConfig({displayName:"our-discovery-module__VideoContainer",componentId:"sc-5ecbdfed-7"})``,eM=[{label:"Probiotic Ecology",content:'Three proprietary live <i style="font-size: inherit; line-height: inherit; white-space: nowrap;">L. crispatus</i> probiotic strains selected for their genomic diversity and strengthening of vaginal stability and resilience: LUCA103™, LUCA011™, LUCA009™.'},{label:"Prebiotic Complex",content:"Nutrients and molecules that create the ideal environment and energy source for the probiotic strains to not only survive, but thrive."},{label:"SMART Tablet™ Delivery",content:"Slow-release delivery technology engineered to maximize exposure to the vaginal wall. Clinically validated as the most effective and superior delivery system, when compared to vaginal and oral formats."}];e.s(["default",0,()=>(0,i.jsx)(ej,{$isMobileBackground:!!(0,p.isMobileDevice)(),children:(0,i.jsx)(s.InnerRowContainer,{children:(0,i.jsxs)(eC,{children:[(0,i.jsxs)(eI,{children:[(0,i.jsxs)(eS,{children:[(0,i.jsx)(e_,{children:"An Evolution in Vaginal Health"}),(0,i.jsxs)(s.BigTitle,{children:["VS-01™ is the first and only vaginal synbiotic clinically validated to optimize your vaginal microbiome with three proprietary ",(0,i.jsx)(s.ItalicizedWord,{children:"L. crispatus"})," ","probiotic strains."]})]}),(0,i.jsxs)(e$,{children:[(0,i.jsx)(eg,{tabs:eM}),(0,i.jsx)(eN,{children:(0,i.jsx)(ew.default,{playbackId:"l019aaYVmx4ccxIViULHhytYle02apTBtNdCztlv5fb8E",autoPlay:!0,muted:!0,loop:!0,style:{aspectRatio:1},wrapperPosition:"relative"})})]})]}),(0,i.jsx)(ek,{children:(0,i.jsxs)(s.OpenDrawerButton,{onClick:()=>{(0,x.showPopup)("formulation-drawer-module"),o.default.trackButtonClicked("VS-01 Formulation Drawer","VS-01 PDP",{})},id:"popup-source-button-formulation-drawer-module",children:[(0,i.jsx)(l,{}),(0,i.jsx)(s.OpenDrawerText,{children:"Explore Our Formulation"})]})}),(0,i.jsx)(d.default,{id:"formulation-drawer-module",type:"drawer",children:(0,i.jsx)(eb,{})})]})})})],363609),e.i(350461);var eq=e.i(958678),eD=e.i(109587),eL=e.i(800119);let eT={page_type:"pdp",page_class:"page-vaginal-synbiotic",page_name:T.default.page_name,page_title:T.default.page_title,page_description:T.default.page_desc},ez=(0,u.memo)(({faqSchema:e,yotpoAverageScore:t,yotpoTotalReviews:a})=>{let o=(0,eL.buildAggregateRating)(t,a),r={"@context":"https://schema.org/","@type":"Product",name:"VS-01™ Vaginal Health Probiotic",image:["https://res.cloudinary.com/dljz0lko8/image/upload/v1715368605/vs-01/Hero.jpg","https://res.cloudinary.com/dljz0lko8/image/upload/v1715368391/vs-01/Validated.jpg","https://res.cloudinary.com/dljz0lko8/image/upload/v1715368706/vs-01/USPs.jpg","https://res.cloudinary.com/dljz0lko8/image/upload/v1715368706/vs-01/Application.jpg","https://res.cloudinary.com/dljz0lko8/image/upload/v1715368705/vs-01/Allergens.jpg"],description:"VS-01™ is a safe, clinically validated suppository that addresses the source, not just the symptoms. It is clinically validated to establish an optimal vaginal microbiome dominated by L. crispatus—the vagina’s most protective bacteria. VS-01™ works as an ongoing system to maximize efficacy with minimal impact on your day-to-day. Start your first month with an intensive six-tablet protocol to establish/restore an optimal vaginal microbiome. Continue your protocol with two simple monthly tablets designed to maintain a stable vaginal microbiome and regulate pH. Results of a double-blind, randomized, placebo-controlled clinical trial showed that: 90% of participants established an optimal vaginal microbiome dominated by L. crispatus, VS-01™ was 10x more effective than a leading oral vaginal probiotic at increase L. crispatus abundance, 100% of participants maintained regulated vaginal pH. VS-01™ is tested for biocompatibility with the vaginal environment, 14 classes of allergens, 500+ contaminants and osmolality. It is also non-toxic and non-irritating.",url:`https://seed.com${n.default.vaginal_synbiotic}`,sku:"VS-WK",gtin:"00850058995083",...o?{aggregateRating:o}:{},brand:{"@type":"Brand",name:"Seed"},offers:{"@type":"Offer",url:`https://seed.com${n.default.vaginal_synbiotic}`,itemCondition:"http://schema.org/NewCondition",availability:"http://schema.org/InStock",acceptedPaymentMethod:[{"@type":"PaymentMethod",name:"Credit Card"},{"@type":"PaymentMethod",name:"PayPal"},{"@type":"PaymentMethod",name:"Apple Pay"}],priceSpecification:{"@type":"UnitPriceSpecification",price:"99.00",priceCurrency:"USD",priceType:"http://schema.org/MSRP"},seller:{"@type":"Organization",name:"Seed"},shippingDetails:{"@type":"OfferShippingDetails",shippingRate:{"@type":"MonetaryAmount",value:"0",currency:"USD"},shippingDestination:{"@type":"DefinedRegion",addressCountry:"US"},deliveryTime:{"@type":"ShippingDeliveryTime",businessDays:{"@type":"OpeningHoursSpecification",dayOfWeek:["http://schema.org/Monday","http://schema.org/Tuesday","http://schema.org/Wednesday","http://schema.org/Thursday","http://schema.org/Friday"]},handlingTime:{"@type":"QuantitativeValue",minValue:"0",maxValue:"1",unitCode:"d"},transitTime:{"@type":"QuantitativeValue",minValue:"3",maxValue:"8",unitCode:"d"}}},hasMerchantReturnPolicy:{"@type":"MerchantReturnPolicy",merchantReturnLink:"https://help.seed.com",description:"30 Day Money-Back Guarantee on First Order without Product Return",merchantReturnDays:"30",returnFees:"0"}}},l=`https://seed.com${n.default.vaginal_synbiotic}`,s="Seed • VS-01™ Vaginal Synbiotic | Probiotic Suppository";return(0,i.jsxs)(eq.default,{children:[(0,i.jsx)("title",{children:s}),(0,eD.getMetadataTags)({pageTitle:s,pageDescription:eT.page_description,canonicalUrl:l,imageUrl:"https://res.cloudinary.com/dljz0lko8/image/upload/v1759517362/structured-data/og-vs.png",ogImageAlt:s}),(0,i.jsx)("script",{type:"application/ld+json",dangerouslySetInnerHTML:{__html:JSON.stringify(r)}}),e&&(0,i.jsx)("script",{type:"application/ld+json",dangerouslySetInnerHTML:{__html:JSON.stringify(e)}})]})});e.s(["PageData",0,eT,"default",0,ez],253663);var eF=e.i(768410),eP=e.i(924848),eV=e.i(294093);let eA=t.default.div.withConfig({displayName:"expert-testimonials__Container",componentId:"sc-2cdaea41-0"})`
+  background-image: url(${n.default.cloudinary}/f_auto,q_auto/v1702576004/web-onboarding/Desktop/Backgrounds/1x/Textured_Background.png) !important;
+`,eB=t.default.div.withConfig({displayName:"expert-testimonials__ContainerInternal",componentId:"sc-2cdaea41-1"})`
+  padding: 40px 24px 32px 24px;
+  max-width: 1440px;
+  margin: auto;
+
+  .swiper-pagination {
+    margin-top: 16px;
+  }
+
+  @media ${c.mqLargeMin} {
+    padding: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .carousel-dots {
+      margin-top: 36px;
+    }
+  }
+`,eR=t.default.h2.withConfig({displayName:"expert-testimonials__Header",componentId:"sc-2cdaea41-2"})`
+  ${I.Fontw35s32h40};
+  color: var(--text-inverse-primary);
+  align-self: flex-start;
+  width: 75%;
+  margin-bottom: 24px;
+
+  @media ${c.mqLargeMin} {
+    ${I.Fontw35s48h56};
+    letter-spacing: -0.01em;
+    color: var(--text-inverse-primary);
+    margin: auto;
+    margin-bottom: 32px;
+    max-width: 1440px;
+    align-self: center;
+    text-align: center;
+  }
+`,eH=t.default.div.withConfig({displayName:"expert-testimonials__TestimonialHolder",componentId:"sc-2cdaea41-3"})`
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+`,eW=(0,p.isMobileDevice)();e.s(["default",0,({testimonials:e})=>{let t=(e?.length||0)>2,a=Math.ceil(e?.length/3),n=[];for(let i=0;i<a;i++)n.push(e.slice(3*i,3*i+3));return(0,i.jsx)(eA,{children:(0,i.jsxs)(eB,{children:[(0,i.jsx)(eR,{children:"From Leading Providers"}),eW?(0,i.jsx)(eF.default,{params:{slidesPerView:"auto",centeredSlides:!0,height:"550px",initialSlide:0,loop:t,pagination:{el:".swiper-pagination",type:"bullets",clickable:!0},onSlideChange:e=>(e=>{let{realIndex:i}=e;Array.from(document?.getElementsByClassName("swiper-pagination-bullet")).map((e,t)=>{t===i?e.setAttribute("style","background-color: var(--fill-brand); border: 1px solid var(--outline-primary)"):e.setAttribute("style","background-color: none; border: 1px solid var(--outline-neutral)")})})(e)},children:e?.map((e,t)=>(0,i.jsx)(eV.default,{index:t,content:e,showAvatar:!0,isExpert:!0}))}):(0,i.jsx)(eP.default,{hasActiveBorder:!0,maxWidth:"86%",children:n.map((e,t)=>(0,i.jsx)(eH,{children:e.map((e,t)=>(0,i.jsx)(eV.default,{index:t,content:e,showAvatar:!0,isExpert:!0},t))},t))})]})})}],796596);var eO=e.i(508745),eE=e.i(911118);let eU=t.default.div.withConfig({displayName:"new-standard__Container",componentId:"sc-74a05cf4-0"})`
+  background-color: var(--fill-primary);
+`,eG=t.default.div.withConfig({displayName:"new-standard__InternalContainer",componentId:"sc-74a05cf4-1"})`
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  max-width: 1440px;
+  padding: 48px;
+
+  @media ${c.mqSmallMax} {
+    padding: 40px 24px 32px 24px;
+    gap: 48px;
+  }
+`,eJ=t.default.div.withConfig({displayName:"new-standard__Header",componentId:"sc-74a05cf4-2"})`
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 52%;
+
+  @media ${c.mqSmallMax} {
+    width: 100%;
+  }
+`,eX=t.default.div.withConfig({displayName:"new-standard__Title",componentId:"sc-74a05cf4-3"})`
+  ${I.Fontw35s40h48};
+
+  @media ${c.mqSmallMax} {
+    ${I.Fontw35s32h40};
+  }
+`,eK=t.default.div.withConfig({displayName:"new-standard__SubTitle",componentId:"sc-74a05cf4-4"})`
+  ${I.Fontw4s16h24}
+
+  @media ${c.mqSmallMax} {
+    ${I.Fontw4s14h20};
+  }
+`;e.s(["default",0,({chartModule:e,chartRows:t})=>{let a={columnTitles:["VS-01™","Leading Oral Probiotic for Vaginal Health","Certain Prescriptions"],rows:[{title:"Establishes an optimal, resilient vaginal microbiome",values:[!0,!1,!1]},{title:'Increases abundance of <i style="font-size: inherit; line-height: inherit; white-space: nowrap;">L. crispatus</i>',values:[!0,!1,!1]},{title:"Safely interacts directly with epithelial cells in the vagina",values:[!0,!1,!0]},{title:"Maintains optimal vaginal pH",values:[!0,!1,!0]},{title:"Safe for ongoing use",values:[!0,!0,!1]},{title:"Synbiotic with live strains present in the human vaginal microbiome",values:[!0,!1,!1]}]};return e&&t&&(a.columnTitles=[(0,eE.metaObjectItem)(e.metaObject,"column_one_title"),(0,eE.metaObjectItem)(e.metaObject,"column_two_title"),(0,eE.metaObjectItem)(e.metaObject,"column_three_title")],a.rows=t.metaObjects.map(e=>({title:(0,eE.metaObjectItem)(e,"row_label"),values:[!0,"true"===(0,eE.metaObjectItem)(e,"product_two_selected"),"true"===(0,eE.metaObjectItem)(e,"product_three_selected")]}))),(0,i.jsx)(eU,{children:(0,i.jsxs)(eG,{children:[(0,i.jsxs)(eJ,{children:[(0,i.jsx)(eX,{children:"The VS-01™ Difference"}),(0,i.jsx)(eK,{children:"Many existing products and certain prescriptions for vaginal health only target the symptoms and can disrupt the vaginal microbiome. VS-01™ offers a new approach that outperforms on efficacy and safety."})]}),(0,i.jsx)(eO.default,{chartData:a})]})})}],908195);let eQ=[{title:"Tested For",content:`<ul>
+      <li>
+        Biocompatibility with the vaginal environment
+      </li>
+      <li>
+        14 classes of allergens, including gluten, nuts, and soy
+      </li>
+      <li>
+        500+ contaminants (chemical residues and heavy metals)
+      </li>
+      <li>
+        Osmolality (typically only tested for in lubricants)
+      </li>
+    </ul>`},{title:"Non-Toxic + Non-Irritating",content:`<ul>
+      <li>
+        Non-disruptive to the vaginal mucosal barrier in a cruelty-free, FDA-recognized tissue model
+      </li>
+      <li>
+        No histological changes or cellular tissue damage
+      </li>
+      <li>
+        No adverse toxicity outcomes in gold-standard human clinical trial
+      </li>
+    </ul>`}],eY=[{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635952/formulation-icons/Non-irritating.svg",text:"Non-Irritating"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/non-toxic.svg",text:"Non-Toxic"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/no-pfas.svg",text:"No PFAS"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/no-preservatives.svg",text:"No Preservatives or Parabens"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/no-bpas.svg",text:"No BPAs"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/no-pthalates.svg",text:"No Phthalates"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/no-fragrances-or-dyes.svg",text:"No Artificial Fragrances or Dyes"},{img:"https://res.cloudinary.com/dljz0lko8/image/upload/v1738635955/formulation-icons/vegan.svg",text:"Vegan"}],eZ=t.default.h2.withConfig({displayName:"vaginal-safety-module__Title",componentId:"sc-795fcdb6-0"})`
+  font: ${I.Fontw35s26h31};
+  color: var(--text-primary);
+
+  @media ${c.mqLargeMin} {
+    ${I.Fontw35s48h56}
+    letter-spacing: -0.01em;
+  }
+`,e0=(0,t.default)(s.RightColumn).withConfig({displayName:"vaginal-safety-module__StyledRightColumn",componentId:"sc-795fcdb6-1"})`
+  ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 16px;
+    max-width: 311px;
+
+    @media ${c.mqLargeMin} {
+      max-width: inherit;
+    }
+  }
+
+  li {
+    ${I.Fontw4s14h20}
+    padding-left: 4px;
+
+    &::marker {
+      font-size: 10px;
+    }
+  }
+
+  div:last-of-type {
+    max-width: 505px;
+  }
+`;e.s(["default",0,()=>(0,i.jsx)(s.GreenContainer,{children:(0,i.jsxs)(s.InnerRowContainer,{children:[(0,i.jsxs)(s.Text,{children:[(0,i.jsx)(eZ,{children:"A New Standard of Safety"}),(0,i.jsx)(s.Paragraph,{children:"The vagina is one of the most delicate ecosystems of the human body, yet vaginal health products are not subject to rigorous safety testing. We set out to close the gap with superior testing and safety checks."})]}),(0,i.jsxs)(e0,{children:[eQ.map((e,t)=>(0,i.jsx)($.default,{index:t,title:e.title,stringContent:e.content,overwriteTitleColor:"green",overwriteBorderClass:"borderLightBlue",hasExtraPadding:!0},e.title)),(0,i.jsx)(eu.default,{iconContent:eY,mobileIconRows:!0}),(0,i.jsx)(s.DisclaimerContainer,{children:(0,i.jsx)(s.Disclaimer,{children:"VS-01™ requires your body’s natural lubrication for proper dissolution, and therefore may not be as effective among women experiencing significant vaginal dryness."})})]})]})})],164885);var e1=e.i(908178),e2=e.i(563572),e4=e.i(469141);let e5=t.default.div.withConfig({displayName:"desktop-hero-carousel__ImageGalleryWrapper",componentId:"sc-47f5253d-0"})`
+  display: flex;
+  padding-top: 24px;
+  padding-right: 22px;
+  flex: 1.4 1 0;
+
+  @media (max-width: 1023px) {
+    display: none;
+  }
+
+  .image-gallery-image {
+    max-height: 1000px;
+    position: relative;
+    right: 0.5px;
+  }
+
+  .image-gallery-thumbnails-container {
+    display: flex;
+    cursor: default;
+  }
+
+  .image-gallery-thumbnails {
+    padding: 0;
+  }
+
+  .image-gallery-thumbnail {
+    width: 109px;
+    border: none;
+  }
+
+  .image-gallery-thumbnail.active {
+    img {
+      border: 1px solid var(--outline-neutral);
+    }
+  }
+
+  .image-gallery-thumbnail:hover {
+    img {
+      border: 1px solid #bbc3b8;
+    }
+  }
+`,e3=e=>{let{imageSources:t}=e;return(0,i.jsx)(e5,{id:"hero-carousel-desktop",children:(0,i.jsx)(e4.default,{items:t,lazyLoad:!0,thumbnailPosition:"bottom",showNav:!1,showPlayButton:!1,showFullscreenButton:!1,disableThumbnailScroll:!0})})},e6=t.default.div.withConfig({displayName:"mobile-hero-carousel__Carousel",componentId:"sc-44640a79-0"})`
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  margin-right: -30px;
+  margin-left: -30px;
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+`,e8=t.default.div.withConfig({displayName:"mobile-hero-carousel__CarouselImage",componentId:"sc-44640a79-1"})`
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  max-width: 100%;
+`,e7=t.default.div.withConfig({displayName:"mobile-hero-carousel__Dots",componentId:"sc-44640a79-2"})`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 30px;
+  margin-top: 8px;
+
+  @media ${c.mqSmallMin} {
+    margin-bottom: 0px;
+  }
+`,e9=t.default.span.withConfig({displayName:"mobile-hero-carousel__Dot",componentId:"sc-44640a79-3"})`
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--fill-neutral-light);
+
+  &.active {
+    background-color: var(--fill-brand);
+  }
+`,ie=e=>{let{imageSources:t}=e,[a,n]=(0,u.useState)(0);return(0,u.useEffect)(()=>{n(0)},[]),(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(e6,{id:"hero-carousel-with-dots",onScroll:e=>{let{scrollLeft:i,scrollWidth:a}=e.target;n(Math.round(i/(a/t.length)))},children:t.map(e=>(0,i.jsx)(e8,{children:(0,i.jsx)(r.default,{src:e.original,width:375,height:280,alt:e.originalAlt,layout:"responsive"})},e.originalAlt))}),(0,i.jsx)(e7,{id:"hero-carousel-dots",children:t.map((e,t)=>(0,i.jsx)(e9,{className:t===a?"active":""},t))})]})};var ii=e.i(533954);let it=t.default.div.withConfig({displayName:"waitlist-section__SitebuyList",componentId:"sc-e5ee91fe-0"})`
+  ${I.Fontw4s14h21};
+`,ia=t.default.span.withConfig({displayName:"waitlist-section__Waitlist",componentId:"sc-e5ee91fe-1"})`
+  font-size: 10.5pt;
+  text-decoration: underline;
+  cursor: pointer;
+`,io=t.default.button.withConfig({displayName:"waitlist-section__WaitlistButton",componentId:"sc-e5ee91fe-2"})`
+  border: none;
+  background: transparent;
+`,ir=t.default.button.withConfig({displayName:"waitlist-section__WaitlistCtaButton",componentId:"sc-e5ee91fe-3"})`
+  ${I.Fontw5s18h24};
+  width: 100%;
+  margin: 10px 0;
+  background: white;
+`,il=()=>{let e=window.localStorage,t=()=>{let i=!1;if(e)try{i=!!JSON.parse(localStorage.getItem("digioh_json")||"{}")?.vsWaitlistSubmitted}catch{i=!1}return i?"Waitlist Joined":"Join International Waitlist"},[a,n]=(0,u.useState)(t());return e&&window.addEventListener("storage",()=>{let e=t();e!==a&&n(e)}),(0,i.jsxs)("ul",{className:"list",children:[(0,i.jsx)(ir,{className:"button",type:"button",id:"digioh-cta-button","data-testid":"waitlist-cta",disabled:"Waitlist Joined"===a,children:(0,i.jsx)("span",{children:a})}),(0,i.jsxs)(it,{children:["While we work on expanding access to VS-01™ beyond the US, we invite you to join our international waitlist to be among the first to receive updates on its release in your region. Join our ",(0,i.jsx)(io,{type:"button",id:"digioh-waitlist",disabled:"Waitlist Joined"===a,children:(0,i.jsx)(ia,{children:"international waitlist"})})," ","to be notified."]})]})};var is=e.i(845049);let id=t.default.div.withConfig({displayName:"vaginal-synbiotic-hero__StarRatingContainer",componentId:"sc-97e109df-0"})`
+  padding-bottom: 20px;
+  padding-top: 10px;
+`,ic=t.default.div.withConfig({displayName:"vaginal-synbiotic-hero__RefillImageContainer",componentId:"sc-97e109df-1"})`
+  padding-top: 24px;
+`,ip=[{thumbnail:`${n.default.cloudinary}/f_auto,q_auto,h_160,c_fill/v1715281384/vs-01/Hero.jpg`,original:`${n.default.cloudinary}/f_auto,q_auto/v1715281384/vs-01/Hero.jpg`,originalAlt:"VS-01 reset vaginal probiotic tablets, sustain probiotic tablets and applicator",thumbnailAlt:"VS-01 reset vaginal probiotic tablets, sustain probiotic tablets and applicator",loading:"lazy"},{thumbnail:`${n.default.cloudinary}/f_auto,q_auto,h_160,c_fill/v1715281385/vs-01/Validated.jpg`,original:`${n.default.cloudinary}/f_auto,q_auto/v1715281385/vs-01/Validated.jpg`,originalAlt:"VS-01 clinically validated benefits for the vaginal microbiome",thumbnailAlt:"VS-01 clinically validated benefits for the vaginal microbiome",loading:"lazy"},{thumbnail:`${n.default.cloudinary}/f_auto,q_auto,h_160,c_fill/v1715281384/vs-01/USPs.jpg`,original:`${n.default.cloudinary}/f_auto,q_auto/v1715281384/vs-01/USPs.jpg`,thumbnailAlt:"VS-01 probiotic + prebiotic smart tablet delivery system",originalAlt:"VS-01 probiotic + prebiotic smart tablet delivery system",loading:"lazy"},{thumbnail:`${n.default.cloudinary}/f_auto,q_auto,h_160,c_fill/v1715281384/vs-01/Application.jpg`,original:`${n.default.cloudinary}/f_auto,q_auto/v1715281384/vs-01/Application.jpg`,thumbnailAlt:"Woman demonstrating how to insert VS-01 smart tablets using the applicators",originalAlt:"Woman demonstrating how to insert VS-01 smart tablets using the applicators",loading:"lazy"},{thumbnail:`${n.default.cloudinary}/f_auto,q_auto,h_160,c_fill/v1715281384/vs-01/Allergens.jpg`,original:`${n.default.cloudinary}/f_auto,q_auto/v1715281384/vs-01/Allergens.jpg`,thumbnailAlt:"VS-01 vaginal probiotic allergen testing",originalAlt:"VS-01 vaginal probiotic allergen testing",loading:"lazy"}],im=({product:e,siteBuyFields:t,productInfo:a,isVsOutOfStock:n=!1})=>{let{countryCode:o}=(0,u.useContext)(e1.LocationContext),l="vs-rf"===e.productSku,d=a?a.media.nodes.slice(0,6).map(e=>({thumbnail:e.previewImage.thumbnailUrl,original:e.previewImage.largeUrl,thumbnailAlt:e.previewImage.altText,originalAlt:e.previewImage.altText,loading:"lazy"})):ip;return(0,i.jsx)("section",{className:"s-hero",children:(0,i.jsx)("div",{className:"container",id:"srp0-container",children:(0,i.jsxs)("div",{className:"srpHero",children:[l?(0,i.jsxs)(ic,{children:[(0,i.jsx)(r.default,{src:"https://res.cloudinary.com/dljz0lko8/image/upload/t_monarchupdate/v1742412145/vs-rf-hero.png",alt:"Vaginal Synbiotic Refill",style:{position:"relative",height:"auto"},height:480,width:650}),(0,i.jsx)("div",{className:"srp0media",children:(0,i.jsx)("div",{className:"sm img",children:(0,i.jsx)(r.default,{src:"https://res.cloudinary.com/dljz0lko8/image/upload/t_monarchupdate/v1742412145/vs-rf-hero.png",objectFit:"cover",fill:!0,alt:"Vaginal Synbiotic Refill"})})})]}):(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(e3,{imageSources:d}),(0,i.jsx)("div",{className:"srp0media",children:(0,i.jsx)("div",{className:"sm img",children:(0,i.jsx)(ie,{imageSources:d})})})]}),(0,i.jsxs)("div",{className:"srp0text","data-testid":"vs01-srp0text",children:[(0,i.jsx)("div",{className:"srp0title","data-testid":"vs01-srp0title",children:(0,i.jsx)("div",{className:"container",children:(0,i.jsx)("h1",{className:"hero-title",children:(0,i.jsxs)("span",{className:"title-text",children:[a?a.shortTitle:"VS-01™",(0,i.jsx)("br",{}),a?a.title.replace(a.shortTitle,""):"Vaginal Synbiotic",l?(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)("br",{}),"Monthly Sustain"]}):null]})})})}),(0,i.jsx)(id,{children:(0,i.jsx)(is.StarRating,{productSku:"vs-wk"})}),(0,i.jsxs)("div",{className:"container",children:[(0,i.jsxs)("p",{children:[!a&&(0,i.jsxs)(i.Fragment,{children:["The first vaginal probiotic suppository clinically validated to establish an optimal vaginal microbiome dominated by ",(0,i.jsx)(s.ItalicizedWord,{children:"L. crispatus"}),"—the vagina’s most protective bacteria."]}),a&&(0,i.jsx)(i.Fragment,{children:a.description})]}),(0,i.jsx)(ii.default,{selectedSku:e.productSku||"",showDiscountPill:!0,vsDisplay:!0}),"US"!==o?(0,i.jsx)(il,{}):(0,i.jsx)(e2.default,{buttonName:"VS-01 start now",locationName:"PDP",product:e,waitList:n,hideBlurb:!1,hidePrice:!0,siteBuyFields:t})]})]})]})})})};im.defaultProps={type:"vs-01"};let ih=(0,u.memo)(im);e.s(["default",0,ih],893998);let ig=t.default.div.withConfig({displayName:"vs-clinical-results__Container",componentId:"sc-db9167bd-0"})`
+  display: flex !important;
+  flex-direction: column;
+  gap: 48px;
+  padding: 48px 0;
+  max-width: 550px;
+
+  @media ${c.mqSmallMax} {
+    gap: 24px;
+  }
+`,iu=t.default.div.withConfig({displayName:"vs-clinical-results__Header",componentId:"sc-db9167bd-1"})`
+  ${I.Fontw5s14h20} !important;
+  color: var(--text-primary);
+
+  @media ${c.mqSmallMax} {
+    ${I.Fontw5s12h18} !important;
+  }
+`,ix=t.default.div.withConfig({displayName:"vs-clinical-results__SubHeader",componentId:"sc-db9167bd-2"})`
+  ${I.Fontw35s48h56} !important;
+  color: var(--text-primary);
+
+  @media ${c.mqSmallMax} {
+    ${I.Fontw35s24h32} !important;
+  }
+`,iy=t.default.div.withConfig({displayName:"vs-clinical-results__Body",componentId:"sc-db9167bd-3"})`
+  ${I.Fontw4s16h24};
+  color: var(--text-primary);
+
+  @media ${c.mqSmallMax} {
+    ${I.Fontw4s14h20};
+  }
+`,iv=t.default.div.withConfig({displayName:"vs-clinical-results__BodyImages",componentId:"sc-db9167bd-4"})`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 180%;
+  max-width: 80vw;
+
+  @media ${c.mqSmallMax} {
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+  }
+`,ib=t.default.div.withConfig({displayName:"vs-clinical-results__ImageContainer",componentId:"sc-db9167bd-5"})`
+  width: 100%;
+  margin-top: 24px;
+`,iw=t.default.div.withConfig({displayName:"vs-clinical-results__ImageDescription",componentId:"sc-db9167bd-6"})`
+  ${I.Fontw4s12h16};
+  color: var(--text-secondary);
+
+  margin-top: 24px;
+`,ij=t.default.div.withConfig({displayName:"vs-clinical-results__CitationsContainer",componentId:"sc-db9167bd-7"})`
+  margin-top: 24px;
+`,i_=t.default.div.withConfig({displayName:"vs-clinical-results__CitationsHeader",componentId:"sc-db9167bd-8"})`
+  ${I.Fontw5s14h18};
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+`,iC=t.default.span.withConfig({displayName:"vs-clinical-results__CitationsBody",componentId:"sc-db9167bd-9"})`
+  ${I.Fontw4s12h16};
+  vertical-align: ${e=>e.$isSuper?"super":"initial"};
+`,iS=()=>(0,i.jsxs)(ig,{children:[(0,i.jsx)(iu,{children:T.default.product_title}),(0,i.jsx)(ix,{children:"Our Clinical Research"}),(0,i.jsxs)(iy,{children:[(0,i.jsxs)("p",{children:["In our first randomized, double-blind, placebo-controlled clinical trial, VS-01™ converted 90% of participants to an optimal vaginal microbiome within 21 days and was superior to both a leading oral probiotic for vaginal health and placebo",(0,i.jsx)(iC,{$isSuper:!0,children:"1"}),"."]}),(0,i.jsx)("br",{}),(0,i.jsxs)(iv,{children:[(0,i.jsxs)(ib,{children:[(0,i.jsx)(r.default,{src:"https://res.cloudinary.com/dljz0lko8/image/upload/f_auto,q_auto/v1715888687/vs-01/Converter_Graph_Alt.png",alt:"Graph showing proportion of converters to optimal vaginal microbiome at 21 days",width:0,height:0,sizes:"100vw",style:{width:"100%",height:"auto"}}),(0,i.jsx)(iw,{children:"Figure 1. The proportion of participants with a non-optimal baseline vaginal microbiome who converted to an optimal vaginal microbiome."})]}),(0,i.jsxs)(ib,{children:[(0,i.jsx)(r.default,{src:"https://res.cloudinary.com/dljz0lko8/image/upload/f_auto,q_auto/v1715888688/vs-01/Frame_2610971.png",alt:"Graph showing change in average relative abundance of Lactobacillus crispatus",width:0,height:0,sizes:"100vw",style:{width:"100%",height:"auto"}}),(0,i.jsxs)(iw,{children:["Figure 2. Change in the average relative abundance of"," ",(0,i.jsx)(s.ItalicizedWord,{style:{whiteSpace:"normal"},children:"L. crispatus"})," ","in participants with a non-optimal baseline vaginal microbiome."]})]})]}),(0,i.jsxs)(ij,{children:[(0,i.jsx)(i_,{children:"CITATIONS"}),(0,i.jsx)(iC,{$isSuper:!0,children:"1"}),(0,i.jsx)(iC,{$isSuper:!1,children:" Ravel, J., Simmons, S.,  Greenwood Jawa, E., Gottfried, S., Greene, M., Kellogg-Spadt, S., Gevers, D., Harper, D. IDSOG Annual Meeting 2024."})]})]})]}),i$=t.default.div.withConfig({displayName:"clinical-results__Container",componentId:"sc-c166706d-0"})`
+  width: 100%;
+  padding: 48px;
+  max-width: 1440px;
+  margin: 0px auto;
+
+  @media ${c.mqSmallMax} {
+    padding: 40px 24px 32px 24px;
+  }
+`,iI=t.default.div.withConfig({displayName:"clinical-results__ContainerInternal",componentId:"sc-c166706d-1"})`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  @media ${c.mqSmallMax} {
+    flex-direction: column;
+  }
+`,ik=t.default.div.withConfig({displayName:"clinical-results__HeaderTextContainer",componentId:"sc-c166706d-2"})`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+`,iN=t.default.div.withConfig({displayName:"clinical-results__Subheader",componentId:"sc-c166706d-3"})`
+  ${I.Fontw4s18h28};
+  color: var(--text-primary);
+  max-width: 332px;
+  padding-bottom: 24px;
+
+  @media ${c.mqSmallMax} {
+    max-width: 100%;
+    ${I.Fontw4s14h20}
+  }
+`,iM=t.default.div.withConfig({displayName:"clinical-results__BodyContainer",componentId:"sc-c166706d-4"})`
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: space-between;
+  width: 100%;
+
+  @media ${c.mqSmallMax} {
+    flex-direction: column;
+  }
+`,iq=t.default.div.withConfig({displayName:"clinical-results__DataPoint",componentId:"sc-c166706d-5"})`
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  width: 100%;
+  border-right: 1px solid var(--outline-neutral);
+
+  &:last-child {
+    border: none;
+  }
+
+  @media ${c.mqSmallMax} {
+    border-right: none;
+    border-bottom: 1px solid var(--outline-neutral);
+    gap: 0px;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    margin-top: -12px;
+  }
+`,iD=t.default.div.withConfig({displayName:"clinical-results__Percentage",componentId:"sc-c166706d-6"})`
+  ${I.Fontw35s64h72};
+  color: var(--text-primary);
+
+  @media ${c.mqSmallMin} {
+    ${I.Fontw35s56h64};
+  }
+
+  @media ${c.mqSmallMax} {
+    ${I.Fontw35s48h60};
+  }
+`,iL=t.default.div.withConfig({displayName:"clinical-results__BodyText",componentId:"sc-c166706d-7"})`
+  ${I.Fontw4s14h20};
+  padding-right: 48px;
+  vertical-align: middle;
+  margin-top: -5px;
+
+  @media ${c.mqSmallMax} {
+    ${I.Fontw4s12h16};
+    padding-right: 0px;
+    max-width: 186px;
+  }
+`,iT=t.default.div.withConfig({displayName:"clinical-results__DrawerButtonContainer",componentId:"sc-c166706d-8"})`
+  width: auto;
+`,iz=t.default.p.withConfig({displayName:"clinical-results__DisclaimerText",componentId:"sc-c166706d-9"})`
+  ${I.Fontw4s12h16}
+  margin-top: 24px;
+  text-align: left;
+`;e.s(["default",0,({eyebrowText:e,subheaderText:t,dataPoints:a,showDrawerButton:n,showSitePopup:r,drawerButtonText:c,disclaimer:p})=>{let[m,h]=(0,u.useState)(!1);return(0,i.jsx)(s.GrayContainer,{children:(0,i.jsxs)(i$,{children:[(0,i.jsxs)(iI,{children:[(0,i.jsxs)(ik,{children:[(0,i.jsx)(s.Eyebrow,{children:e}),(0,i.jsx)(iN,{children:t})]}),(0,i.jsx)(iM,{children:a.map((e,t)=>(0,i.jsxs)(iq,{children:[(0,i.jsx)(iD,{children:e.percentage}),(0,i.jsx)(iL,{children:e.text.split(/(<i>.*?<\/i>)/).map((e,t)=>e.startsWith("<i>")&&e.endsWith("</i>")?(0,i.jsx)(s.ItalicizedWord,{children:e.slice(3,-4)},t):e)})]},t))}),n&&(0,i.jsx)(iT,{children:(0,i.jsxs)(s.OpenDrawerButton,{onClick:()=>{h(!m),(0,x.showPopup)("vs-clinical-results"),o.default.trackButtonClicked("Our Clinical Research Drawer","VS-01 PDP",{})},children:[(0,i.jsx)(l,{}),(0,i.jsx)(s.OpenDrawerText,{children:c})]})}),p&&(0,i.jsx)(iz,{children:p})]}),r&&(0,i.jsx)(d.default,{id:"vs-clinical-results",type:"drawer",children:(0,i.jsx)(iS,{})})]})})}],769117);let iF=t.default.div.withConfig({displayName:"protocol__Container",componentId:"sc-fe0d6f86-0"})`
+  background: linear-gradient(#c3d0d2, #dfe9e8, #d2d9d9, #edf1f2);
+
+  @media ${c.mqLargeMin} {
+    background: linear-gradient(to left, #c3d0d2, #dfe9e8, #edf1f2);
+  }
+`,iP=t.default.div.withConfig({displayName:"protocol__InnerContainer",componentId:"sc-fe0d6f86-1"})`
+  padding: 40px 0 32px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 'header' 'image' 'content' 'carousel';
+  gap: 48px;
+
+  @media ${c.mqLargeMin} {
+    min-height: 750px;
+    padding: 64px 0 0 48px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 'header image' 'content image' 'carousel image';
+    gap: 80px;
+    max-width: 1440px;
+    margin: auto;
+  }
+`,iV=t.default.hgroup.withConfig({displayName:"protocol__Header",componentId:"sc-fe0d6f86-2"})`
+  padding: 0 24px;
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  h2 {
+    ${I.Fontw35s32h40}
+    letter-spacing: -0.02em;
+    max-width: 290px;
+  }
+
+  @media ${c.mqLargeMin} {
+    gap: 24px;
+    padding: 0;
+
+    h2 {
+      ${I.Fontw35s48h56}
+      letter-spacing: -0.01em;
+      max-width: 469px;
+    }
+
+    h3 {
+      margin-bottom: 8px;
+    }
+
+    > p {
+      ${I.Fontw4s16h24}
+      max-width: 432px;
+    }
+  }
+`,iA=t.default.p.withConfig({displayName:"protocol__Paragraph",componentId:"sc-fe0d6f86-3"})`
+  ${I.Fontw4s14h20}
+
+  @media ${c.mqLargeMin} {
+    ${I.Fontw4s18h28}
+  }
+`,iB=t.default.section.withConfig({displayName:"protocol__ImageContainer",componentId:"sc-fe0d6f86-4"})`
+  grid-area: image;
+  width: 100%;
+  min-height: 253px;
+  position: relative;
+  justify-self: center;
+
+  img {
+    height: auto;
+    max-inline-size: 100%;
+    block-size: auto;
+    object-fit: cover;
+
+    @media ${c.mqSmallMax} {
+      height: auto !important;
+    }
+  }
+
+  @media ${c.mqLargeMin} {
+    max-width: 680px;
+    max-height: 906px;
+    justify-self: flex-end;
+  }
+`,iR=t.default.section.withConfig({displayName:"protocol__Content",componentId:"sc-fe0d6f86-5"})`
+  padding: 0 24px;
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  h2 {
+    ${I.Fontw4s18h28}
+  }
+
+  @media ${c.mqLargeMin} {
+    padding: 0;
+    gap: 32px;
+
+    h2 {
+      ${I.Fontw4s24h32}
+    }
+  }
+`,iH=t.default.div.withConfig({displayName:"protocol__ContentSection",componentId:"sc-fe0d6f86-6"})`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+`,iW=t.default.article.withConfig({displayName:"protocol__ContentArticle",componentId:"sc-fe0d6f86-7"})`
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+`,iO=t.default.div.withConfig({displayName:"protocol__ArticleImageContainer",componentId:"sc-fe0d6f86-8"})`
+  width: 100px;
+  height: 62px;
+  position: relative;
+  top: 18px;
+
+  img {
+    max-inline-size: 100%;
+    block-size: auto;
+    object-fit: cover;
+    filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  @media ${c.mqLargeMin} {
+    width: 148px;
+    height: 92px;
+    top: 0;
+  }
+`,iE=t.default.div.withConfig({displayName:"protocol__CarouselHolder",componentId:"sc-fe0d6f86-9"})`
+  grid-area: carousel;
+  padding: 24px 0;
+  margin: 0 24px;
+  border-top: 1px solid var(--outline-neutral);
+  border-bottom: 1px solid var(--outline-neutral);
+  overflow: hidden;
+
+  .carousel-dots {
+    margin-top: 16px;
+  }
+
+  .testimonial-quote {
+    ${I.Fontw35s18h24}
+    mark {
+      ${I.Fontw35s18h24}
+    }
+  }
+
+  @media ${c.mqLargeMin} {
+    display: block;
+    padding: 24px 0;
+    border-top: 1px solid var(--outline-neutral);
+    border-bottom: 1px solid var(--outline-neutral);
+    margin-top: auto;
+    margin-bottom: 80px;
+
+    .carousel-dots {
+      margin-top: 16px;
+    }
+
+    .testimonial-quote {
+      ${I.Fontw35s18h28}
+      mark {
+        ${I.Fontw35s18h28}
+      }
+    }
+  }
+`,iU=`${n.default.cloudinary}/f_auto,q_auto/v1716490195/vs-01/vs01_reset_sustain_packaging_transparent_background.png`,iG=`${n.default.cloudinary}/f_auto,q_auto/v1717176680/VS_Reset_Sustain_Wraparounds_Applicator_Laydown_w_GroundShadow_3x-2.webp`;e.s(["default",0,({testimonials:e})=>{let t=(0,p.isMobileDevice)();return(0,i.jsx)(iF,{children:(0,i.jsxs)(iP,{children:[(0,i.jsxs)(iV,{children:[(0,i.jsx)(s.Eyebrow,{children:"Using VS-01™"}),(0,i.jsx)("h2",{children:"Address the Source, Not the Symptoms"}),(0,i.jsx)(iA,{children:"Finally, a sustainable approach to address the root cause of imbalances and sustainably defend against daily disruptions."})]}),(0,i.jsx)(iB,{children:(0,i.jsx)(r.default,{loading:"lazy",src:t?iU:iG,alt:"VS-01 Open Reset Box with Closed Sustain Box and Applicator",layout:"fill",objectFit:"contain"})}),(0,i.jsxs)(iR,{children:[(0,i.jsx)("h2",{children:"2 Month Starter Kit"}),(0,i.jsxs)(iH,{children:[(0,i.jsxs)(iW,{children:[(0,i.jsx)(s.Eyebrow,{children:"Month 1 Reset"}),(0,i.jsx)(iA,{children:"Your first-month reset to rapidly establish an optimal vaginal microbiome."})]}),(0,i.jsx)(iO,{children:(0,i.jsx)(r.default,{loading:"lazy",src:`${n.default.cloudinary}/f_auto,q_auto/v1715887386/vaginal-synbiotic/VS_Reset_Wraparound_Floating_Open_3x.png`,alt:"VS-01 Open Reset Box",fill:!0})})]}),(0,i.jsxs)(iH,{children:[(0,i.jsxs)(iW,{children:[(0,i.jsx)(s.Eyebrow,{children:"Month 2+ Sustain"}),(0,i.jsx)(iA,{children:"The two-tablet monthly protocol that maintains stability and protects against pH disruptors."})]}),(0,i.jsx)(iO,{children:(0,i.jsx)(r.default,{loading:"lazy",src:`${n.default.cloudinary}/f_auto,q_auto/v1715887391/vaginal-synbiotic/VS_Sustain_Wraparound_Floating_Open_3x.png`,alt:"VS-01 Open Sustain Box",fill:!0})})]})]}),(0,i.jsx)(iE,{children:(0,i.jsx)(eP.default,{children:e&&e.map((e,t)=>(0,i.jsx)(eV.default,{index:t,content:e,noBackground:!0},t))})})]})})}],685342);let iJ=t.css`
+  .page-vaginal-synbiotic {
+    .site-content {
+      margin-top: var(--flag-vaginal-margin);
+      padding-top: var(--flag-vaginal-padding-mobile);
+
+      @media ${c.mqLargeMin} {
+        padding-top: var(--flag-vaginal-padding);
+      }
+      #srp0-sticky {
+        z-index: 100;
+        transform: translateY(0);
+      }
+      #srp0-container {
+        max-width: 1440px;
+        align-items: center;
+        display: block;
+        margin: 0px 30px;
+      }
+      #add-to-cart-new {
+        display: none;
+      }
+      .s-hero {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 var(--spacing-48) 0;
+        @media screen and (min-width: 64em) and (max-width: 90em) and (max-height: 45em) {
+          height: 100vh;
+          overflow: hidden;
+        }
+
+        > .container {
+          position: relative;
+          display: block;
+          @media screen and (min-width: 64em) and (max-width: 90em) and (max-height: 45em) {
+            height: 100%;
+            .swiper {
+              height: 100%;
+              .hero,
+              .hero .media .img {
+                height: 100%;
+                > div {
+                  height: 100%;
+                  img {
+                    min-width: auto !important;
+                    width: auto !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        * {
+          color: var(--text-primary);
+        }
+
+        .title {
+          ${I.WithSiteLayout}
+          padding-top: var(--spacing-24);
+          padding-bottom: var(--spacing-24);
+          display: block;
+          @media ${c.mqLargeMin} {
+            width: calc(100% - 60px);
+            transform: translate(-50%, -50%);
+            padding: 0;
+            position: absolute;
+            z-index: 2;
+            pointer-events: none;
+            left: 50%;
+            top: 45%;
+          }
+        }
+        .title .container {
+          display: block;
+          @media ${c.mqLargeMin} {
+            padding: 0 50px;
+          }
+        }
+        .title .container h1 {
+          ${I.WithFontHead}
+          letter-spacing: var(--flag-letter-spacing-1);
+          @media ${c.mqSmallMin} {
+            letter-spacing: var(--flag-letter-spacing-2);
+          }
+          display: inline-block;
+          font-size: var(--font-size-600);
+          @media ${c.mqLargeMin} {
+            display: block;
+            font-size: var(--font-size-1000);
+          }
+        }
+
+        .srp0title {
+          ${I.WithSiteLayout}
+          padding-top: var(--spacing-24);
+          padding-bottom: var(--spacing-24);
+          display: block;
+          @media ${c.mqLargeMin} {
+            padding: 0;
+            z-index: 2;
+            pointer-events: none;
+            left: 50%;
+            top: 45%;
+            margin-bottom: 12px;
+          }
+          h1.hero-title {
+            display: flex;
+            flex-direction: column;
+            align-content: flex-start;
+            gap: 8px;
+
+            @media ${c.mqLargeMin} {
+              gap: 24px;
+            }
+
+            span.title-text {
+              font-weight: 350;
+              font-size: 26px;
+              line-height: 32px;
+
+              @media ${c.mqLargeMin} {
+                font-size: 40px;
+                line-height: 44px;
+              }
+            }
+          }
+        }
+        .srpCouponAmount {
+          background-color: #e9f0ca;
+          border-radius: 24px;
+          width: 70px;
+          height: 18px;
+          font-size: 12px;
+          padding: 4px 8px 4px;
+          display: inline-block;
+          vertical-align: middle;
+          text-align: center;
+          align-items: center;
+          font-weight: 500;
+          margin-left: 8px;
+          margin-top: -2px;
+          line-height: 12px;
+        }
+        .srp0title .container {
+          display: block;
+          @media ${c.mqSmallMax} {
+            margin-left: -30px;
+          }
+        }
+
+        .site-buy {
+          ${I.WithSiteLayout}
+          position: relative;
+          display: block;
+          z-index: 2;
+
+          @media ${c.mqLargeMin} {
+            justify-content: flex-end;
+            display: flex;
+            min-width: 300px;
+            margin-top: 0;
+          }
+
+          @media ${c.mqXXLargeMin} {
+            justify-content: flex-end;
+            display: flex;
+            margin-top: 0;
+          }
+        }
+        .srp0text .site-buy {
+          @media ${c.mqLargeMin} {
+            justify-content: flex-start;
+          }
+
+          @media ${c.mqXXLargeMin} {
+            justify-content: flex-start;
+          }
+        }
+        .site-buy .container {
+          width: 100% !important;
+          position: relative;
+
+          @media ${c.mqLargeMin} {
+            width: 302px;
+          }
+        }
+        .srp0text .site-buy .container {
+          width: 100%;
+          position: relative;
+        }
+        .site-buy .blurb {
+          margin: var(--spacing-24) 0 0;
+          p {
+            font-size: 13px;
+            margin-top: var(--spacing-8) / 2;
+            * {
+              font-size: 13px;
+            }
+            strong {
+              padding-right: 5px;
+            }
+            &.bg-green {
+              display: inline-block;
+              background: #b9f6a3;
+              padding: 3px 5px 1px;
+              margin-top: 0;
+            }
+            & span {
+              font-weight: 500;
+              font-size: 13px;
+            }
+          }
+        }
+        .site-buy .list {
+          display: block;
+          position: relative;
+          margin: var(--spacing-24) 0 0;
+          width: 100%;
+
+          @media ${c.mqLargeMin} {
+            transition: all 0.25s ease;
+          }
+        }
+        .site-buy .list li {
+          font-size: var(--font-size-350);
+          line-height: 1.75;
+
+          a {
+            all: unset;
+            text-decoration: underline;
+            cursor: pointer;
+          }
+        }
+        .site-buy .button {
+          position: relative;
+          text-transform: inherit;
+          padding: var(--spacing-24) 0;
+          margin: var(--spacing-8) 0 0;
+          width: 100%;
+
+          &:focus {
+            outline: solid 2px black;
+            outline-offset: 3px;
+          }
+        }
+
+        .page-vaginal-synbiotic {
+          .site-buy .button {
+            margin: var(--spacing-24) 0 0;
+          }
+        }
+
+        .site-buy .button i {
+          transform: scale(0.8);
+          padding: 0 var(--spacing-24);
+        }
+        .site-buy .button * {
+          font-size: var(--font-size-400);
+          font-weight: 500;
+          color: #fff;
+
+          @media ${c.mqLargeMin} {
+            font-weight: 500;
+          }
+        }
+        .site-buy .promoCodeIndicator {
+          text-align: center;
+          background-color: var(--guidance-secondary);
+          padding: 8px 12px;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          border-radius: 24px;
+          font-size: 14px;
+        }
+
+        .site-buy {
+          padding-left: 0px;
+          padding-right: 0px;
+          .container {
+            @media screen and (min-width: 64em) and (max-width: 90em) and (max-height: 45em) {
+              bottom: 20px;
+            }
+          }
+          .button {
+            &:hover,
+            &:focus {
+              @media ${c.mqSmallMax} {
+                background-color: #fff;
+              }
+              * {
+                @media ${c.mqSmallMax} {
+                  color: var(--text-primary);
+                }
+              }
+            }
+          }
+        }
+
+        .hero > .container {
+          display: flex;
+          flex-direction: column;
+          background-color: #fff;
+          height: 100%;
+          width: 100%;
+          margin-bottom: 10px;
+        }
+
+        .hero .media {
+          ${I.WithSiteLayoutPadding}
+          margin-left: auto;
+          margin-right: auto;
+          position: relative;
+          display: block;
+          width: 100%;
+          overflow: hidden;
+        }
+        .hero .media .img {
+          position: relative;
+          display: none;
+          width: 100%;
+          &.sm {
+            display: block;
+          }
+          @media ${c.mqLargeMin} {
+            &.lg {
+              display: block;
+            }
+            &.sm {
+              display: none;
+            }
+          }
+        }
+
+        .srpHero .srp0media {
+          @media ${c.mqLargeMin} {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+
+          .img {
+            position: relative;
+            display: none;
+            width: 100%;
+
+            &.sm {
+              display: block;
+            }
+            @media ${c.mqLargeMin} {
+              &.lg {
+                display: block;
+                left: -20%;
+                scale: 2.2;
+              }
+              &.sm {
+                display: none;
+              }
+            }
+            img {
+              object-fit: cover;
+            }
+          }
+        }
+
+        .hero .text {
+          ${I.WithSiteLayoutWidth}
+          ${I.WithSiteLayoutPadding}
+          padding-top: 30px;
+          z-index: 1;
+          @media ${c.mqLargeMin} {
+            transform: translateX(-50);
+            position: absolute;
+            left: 50%;
+            top: 29.5%;
+          }
+          @media screen and (min-width: 64em) and (max-width: 90em) and (max-height: 45em) {
+            top: 30%;
+          }
+        }
+        .srpHero .srp0text {
+          ${I.WithSiteLayoutWidth}
+          z-index: 1;
+          @media ${c.mqLargeMin} {
+            justify-content: center;
+            flex: 1 1 0;
+          }
+          @media screen and (min-width: 64em) and (max-width: 90em) and (max-height: 45em) {
+            top: 30%;
+          }
+          display: flex;
+          flex-direction: column;
+        }
+        .srpHero .srp0text .srp0title p {
+          display: none;
+        }
+        .hero .text > .container {
+          @media ${c.mqLargeMin} {
+            width: 302px;
+            max-width: 100%;
+            float: right;
+          }
+        }
+        .hero .text {
+          b {
+            display: block;
+            margin: 0 0 10px;
+          }
+          p {
+            display: block;
+            font-size: var(--font-size-400);
+          }
+          h2,
+          h6 {
+            display: block;
+            font-size: 13px;
+            padding-top: var(--spacing-8);
+            font-weight: 400;
+            line-height: 1.5;
+          }
+        }
+        .srpHero {
+          @media ${c.mqLargeMin} {
+            position: relative;
+            width: 100vw;
+            max-width: 1440px;
+            justify-content: space-around;
+            display: flex;
+            padding: var(--flag-hero-padding) 48px 100px 48px;
+            min-height: 750px;
+          }
+
+          .srp0text {
+            b {
+              display: block;
+              margin: 0 0 10px;
+            }
+            p {
+              display: block;
+              font-size: 16px;
+              line-height: 24px;
+              font-weight: 400;
+            }
+            h2,
+            h6 {
+              display: block;
+              font-size: 13px;
+              padding-top: var(--spacing-8);
+              font-weight: 400;
+              line-height: 1.5;
+            }
+          }
+        }
+        .swiper-scrollbar-container {
+          transform: translateX(-50%);
+          ${I.WithSiteLayoutWidth}
+          position: absolute;
+          z-index: 1;
+          left: 50%;
+          @media ${c.mqLargeMin} {
+            top: 38% !important;
+          }
+          @media screen and (min-width: 64em) and (max-width: 90em) and (max-height: 45em) {
+            top: 30% !important;
+          }
+        }
+        .swiper-scrollbar {
+          transition: 'opacity .25s ease';
+          position: absolute;
+          right: var(--spacing-32);
+          background-color: rgba(28, 58, 19, 0.1);
+          height: 4px;
+          width: calc(100% - 60px);
+          border-radius: 0;
+          @media ${c.mqLargeMin} {
+            width: 302px;
+            right: 50px;
+          }
+        }
+        .swiper-scrollbar-drag {
+          background-color: var(--fill-brand);
+          border-radius: 0;
+          height: 4px;
+        }
+
+        .swiper {
+          &.start {
+            .cursor-nav-prev {
+              cursor: default;
+              opacity: 0.4;
+              background: transparent;
+              border: 0;
+            }
+          }
+          &.end {
+            .cursor-nav-next {
+              cursor: default;
+              opacity: 0.4;
+              background: transparent;
+              border: 0;
+            }
+          }
+        }
+        .cursor-nav {
+          flex-wrap: wrap;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          z-index: 2;
+          top: -40px;
+          border: 1px;
+          display: flex;
+          align-items: center;
+          height: 20px;
+        }
+        .cursor-nav-prev,
+        .cursor-nav-next {
+          background: transparent;
+          position: relative;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+          transition: 'all 0.3s ease';
+          border: 0;
+        }
+        .cursor-nav-prev {
+          margin-right: 12px;
+          transform: rotate(-180deg);
+          position: relative;
+          top: 1px;
+        }
+
+        .swiper-prev-next {
+          ${I.WithSiteLayout}
+          transition: 'opacity .5s ease';
+          justify-content: space-between;
+          display: flex;
+          position: relative;
+          z-index: 2;
+          height: 0;
+          @media ${c.mqLargeMin} {
+            display: none !important;
+          }
+        }
+        .swiper-button-prev,
+        .swiper-button-next {
+          margin-top: 38%;
+          display: none !important;
+        }
+        .swiper-button-prev {
+          @media ${c.mqLargeMin} {
+            margin-left: 0;
+          }
+        }
+        .swiper-button-next {
+          @media ${c.mqLargeMin} {
+            margin-right: 120px;
+          }
+        }
+        .swiper-button-prev i,
+        .swiper-button-next i {
+          cursor: pointer;
+          padding: 5px 0;
+          @media ${c.mqSmallMin} {
+            padding: 5px 10px;
+          }
+        }
+        .swiper-prev-next svg * {
+          stroke: var(--outline-primary);
+        }
+        .swiper-button-prev svg {
+          transform: rotate(180deg);
+        }
+      }
+    }
+    .optly-hero-text {
+      top: 20% !important;
+      @media ${c.mqXXLargeMin} {
+        top: 25% !important;
+      }
+    }
+  }
+`;e.s(["VaginalSynbioticStyles",0,iJ],718862)}]);
+
+//# debugId=a5d3dcb8-eadc-e604-ebd1-998d356e25e9
+//# sourceMappingURL=0qs7y6ih16p2n.js.map
